@@ -1,0 +1,1554 @@
+/*--------------------------------------COL_BOOTSTRAP------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+::selection {
+  color: black;
+  background: #ccc;
+}
+h2{text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px
+  black;
+  
+  font-size: 40px;}
+
+
+
+.fa-head{  width: 400px;  position: relative;    top:5%;    left: 20%; }
+.fa-head .fa, .fab {  padding: 24px;  font-size: 22px;  width: 75px;  text-align: center;  text-decoration: none;  margin: 5px 2px;  border-radius: 50%;  background-color:rgb(246, 236, 19);  color:white;   text-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black; box-shadow: -1px 0 black, 0 3px black, 1px 0 black, 0 -1px black;}
+
+
+.dwnld0 { background-color: rgba(0, 0, 0, 0.7);  color: white; border:2px dashed #ccc;  padding: 17px 20px; cursor: pointer;  text-transform: uppercase;  text-decoration: none;  font-size: 21px;  position: absolute;  top: 14%; left: 55%;}
+.dwnld0:hover {  background-color:#ccc;color:#333;   padding: 17px 20px;  border:2px dashed #333;   border-radius: 4px; text-shadow: 1px 0px black, 0px 1px black, -1px -1px black, 0px -1px black;  text-decoration: none; text-shadow: none;}
+
+
+.rec2{position:absolute;}
+
+.rec1{  transform: rotate(47deg);  position: absolute;  top: 78px;  width: 604px;  height: 238px;  left: -175px;}
+.profiltrg0 {  position: relative;  top: 540px;  width: 289px;  left: 40px;  transform: rotate(-39deg);  height: 233px; z-index:1;}
+.profiltrg1 {  position: absolute;  top: 235px;  transform: rotate(180deg);  left: 1px;}
+#Home p {  z-index: 1;  letter-spacing: -1px;  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+.bottomArrow {  position: relative;  left: 88%;  color: beige;  width: 67px;  top: -49%; z-index: 1;}
+i.material-icons.desk {  display:block;  color: white;  line-height:12px;  font-size:45px;  position: relative;  animation-name: example;  animation-duration: 2s;  animation-iteration-count: infinite;}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {color:#ccc;}
+  
+  50%  {color:#797981;}
+  
+  100% {color:#2e3c48;}
+}
+#arrow1{animation-delay:0s;}
+#arrow2{animation-delay:0.1s;}
+#arrow3{animation-delay:0.2s;}
+
+
+.nav > li > a {  position: relative;  display: inline;  padding: 10px 7px;  }
+
+
+
+/*--------------------------------------BODY+SECTIONS------------------------------*/
+body {    position: relative;   overflow-x:hidden;  font-family: 'cousine'; font-size:18px;  color:#333;}
+html{overflow-x: hidden;}
+.container-fluid{padding:0px;}
+#navnav { margin-bottom: 0px;  }
+.affix ~ .container-fluid {   position: relative;   top: 50px;  }
+.h1,h2,h3{text-transform: uppercase;}
+#Chisono {padding:0px ; color: #fff; background-color: #f1f1f1;}
+#Curriculum {color: white; background-color: #40587c;;  padding-top: 10px ;     border-top: 1px solid rgb(246, 236, 19); text-shadow: -1px 0 #333, 0 2px #333, 1px 0 #333, 0 -1px #333;}
+#Competenze, #Skills {color: #333; background-color:#f1f1f1; padding-bottom: 20px;}
+#Competenze i.material-icons{  color: yellow;  background-color: #f1f1f1;  transform: translatey(-50%);  position: absolute;  left: 42%;  top: -7px;  z-index: 1;}
+#Skills i.material-icons{  color: yellow;  background-color: #f1f1f1;  transform: translatey(-50%);  position: absolute;  left: 42%;  top: -7px; z-index: 1;}
+
+#Contatti, #Contacts { padding:0px ; color: black; background-color: #cccccc; overflow:hidden;}
+
+/*--------------------------------------SECTIONS0------------------------------*/
+#Home{ height: 600px;    border: 8px dashed rgb(246, 236, 19);  background:   linear-gradient( 200deg , #222b36 50%, #2c343f 50% ); overflow: hidden !important;}
+#imghead{max-width: 521px;  height: auto;  position: relative;  top: 47%;  left: 47%;}
+#Nome{position: absolute; top: 300px;    left: 500px;}
+#logohead {      position: absolute;  top: 10%;  left: 85%;  width: 185px;}
+#h1Nome {    color: white; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;   font-weight: bold;    margin: 0 auto;    padding: 10px;    text-align: center;    width: auto;    position: absolute;    left: 22%;    top: 1%;    font-size: 76px;  z-index: 1;}
+#h3Nome{color: white; z-index: 1; position: absolute;  left: 32%;  top: 3%;  color: white;}
+.lineP {  position: relative;  top: -9%;  width: 620px;   height: 188px;  z-index: 1;  left: 24%;color: white;  border-top-color: black !important;  border-bottom-color: black !important;  text-align: center;  background-color: rgba(0, 0, 0, 0.9);  border-radius: 2px;  outline: 1px solid white; box-shadow: 0 10px 6px -6px black;}
+.lineP_1, .lineP_2 {width: 50%; padding:5px; float:left;  height: 184px; margin: 3px auto;  overflow: hidden; text-align: center;}
+.lineP_1{border-right:1px dashed white;}
+
+.menu a{    background-color: #40587c !important;}
+/*--------------------------------------SECTION1 ---------------------*/
+
+
+#profilo1{color:#333; padding: 10px; background-color: #fff;}
+
+#Chisono1{padding: 0px; border-bottom: 2px solid #333;}
+#Chisono2 h3{text-align: center;}
+
+.profiltrg{  position: absolute;  right: 0px; opacity:0.5; width:35%;}
+
+#saluti {  width: 100%;  color: #333; padding: 0px; overflow:hidden;}
+#saluti ul{  list-style-type: none;  margin: 0px;padding: 0px; font-size: 15px;line-height: 2;  overflow:hidden;}
+#saluti h3{margin-bottom:11px;}
+
+.span_title{margin-bottom: 20px;text-transform: uppercase;  letter-spacing: 3px;  margin-right: 10px;  font-size: 1em; }
+.span_content{  font-size: 1.2em;  letter-spacing: 3px;}
+
+.event__content { font-size: 16px;}
+
+#my-timeline {  position: relative;  width: 90%;  margin: 12px auto 0px auto;}
+
+
+
+
+/*--------------------------------------SECTION2------------------------------*/
+    .roadmap.roadmap--orientation-auto .roadmap__events__event::before { background-color: white !important;}
+    .roadmap.roadmap--orientation-auto .roadmap__events::after{ background-color: white !important;}
+    .roadmap.roadmap--orientation-auto .roadmap__events__event::after, .roadmap.roadmap--orientation-auto .roadmap__events__event::before{background-color: white !important;}
+    .roadmap.roadmap--orientation-auto .roadmap__navigation > * a i{color: rgb(246, 236, 19); z-index:0 !important;}
+    .roadmap.roadmap--orientation-auto .roadmap__events__event .event .event__date, .roadmap.roadmap--orientation-vertical .roadmap__events__event .event .event__date { color: rgb(246, 236, 19);}
+    #linkTimeline{position: relative;top: -30px;left: 38%;margin-top: 56px; margin-bottom: 35px;}
+    .look{text-align:center; background-color: rgb(246, 236, 19);color: white;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer; margin-right: 101px;     text-transform: uppercase;    text-decoration: none; font-size: 18px; margin-left: -120px; font-weight: bold;  text-shadow: -1px 0  #333, 0 2px #333, 1px 0 #333, 0 -1px #333; box-shadow: inset 0px -4px black; }
+    .dwnld{text-align:center; background-color: rgb(246, 236, 19);color: white;padding: 12px 20px;border: none;border-radius: 4px;cursor: pointer;    text-transform: uppercase;    text-decoration: none;  font-size: 18px; font-weight: bold;      text-shadow: -1px 0  #333, 0 2px #333, 1px 0 #333, 0 -1px #333; box-shadow: inset 0px -4px black;}
+    .look:hover{background-color: #ccc; color: #333; text-decoration: none; font-weight: normal; text-shadow: none;}
+    .dwnld:hover{background-color: #ccc; color: #333; text-decoration: none; font-weight: normal; text-shadow: none;}
+    .look:active{background-color: #ccc; color: #333; text-decoration: none; font-weight: normal; text-shadow: none;}
+    .dwnld:active{background-color: #ccc; color: #333; text-decoration: none;font-weight: normal; text-shadow: none;}
+    #svg2{color: white !important;}
+    #my-timeline a{ color:white; text-decoration: underline;}
+    #my-timeline a:hover{text-decoration: none; color:rgb(247, 247, 30);}
+    
+
+/*--------------------------------------SECTION3------------------------------*/
+#abilities{ max-width: 100%;  padding: 35px;}
+
+#abilities ul > li { min-height: 30px; padding: 3px 0px; list-style-type: none; }
+#abilities ul > li:hover { background: #F2F2F2; }
+#abilities ul > li .ability-title { display: inline-block; width: 48%; color: #2e3c48; font-weight: bold;}
+#abilities ul > li .ability-score { float: right; }
+#abilities ul > li .ability-score .glyphicon { 	color: darkgray; font-size: 14px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s;  transition: all 0.3s;}
+#abilities ul > li .ability-score .glyphicon.filled { color: #2e3c48; }
+#abilities ul > li:hover .ability-score .glyphicon { margin-left: 2px; } 
+#abilities h2 {font-size: 40px;}
+.Ab1, .Ab2, .Ab3, .Ab4{ font-size: 14px; text-align: center; border: 3px solid rgb(246, 236, 19);  border-radius: 4px;  background-color: #f1f1f1;  box-shadow:1px 4px 3px 4px #626262;}
+
+
+.no-bullets{text-align: left; padding: 0px 21px;}
+#Competenze::before { display: block;    position: absolute;    content: '';    left: 50%;  height: 50px;    width: 50px;    margin-top: -25px;    margin-left: -25px;    background-color: #f1f1f1;    -webkit-transform: rotate(45deg);    -o-transform: rotate(45deg);    -ms-transform: rotate(45deg);    transform: rotate(45deg);    z-index: 0;}
+#Skills::before {  display: block;    position: absolute;    content: '';    left: 50%;  height: 50px;    width: 50px;    margin-top: -25px;    margin-left: -25px;    background-color: #f1f1f1;    -webkit-transform: rotate(45deg);    -o-transform: rotate(45deg);    -ms-transform: rotate(45deg);    transform: rotate(45deg);    z-index: 0;}
+
+#h2-3{position:relative; top:20px;}
+.Ab1 .material-icons {font-size: 65px;    color: rgb(246, 236, 19); text-shadow: -2px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;}
+.Ab2 .material-icons {font-size: 65px;   width: 65px;  color: rgb(246, 236, 19);text-shadow: -2px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;}
+.Ab3 .material-icons {font-size: 65px;    color: rgb(246, 236, 19);text-shadow: -2px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;}
+.Ab4 .material-icons {font-size: 65px;    color: rgb(246, 236, 19);text-shadow: -2px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;}
+
+/*--------------------------------------SECTION4------------------------------*/
+
+.number {    width:  275px;    height: 216px;    position: absolute;    left: 2%;}
+.divuk{  width: 268px;  height: 92px;  position: absolute; margin: 0;  left: 3%;  top: 15%;}
+.pngUK{  width: 55px;  top: 6%;  z-index: 1;  float: left; }
+.divuk a {width:185px; text-align:right;   position: relative; top: 28%;    color: black;   float: right;  font-weight: bold; border: 2px solid black;  margin-bottom: 7px;  background-color: rgba(57, 57, 57, 0.3);  outline: 1px solid white;  border-radius: 2px; }
+.divIt{  width: 268px;  height: 102px;  position: absolute;  left: 3%;top: 60%;}
+.pngIT{  width: 60px;  position: absolute; top: 12%; left: 2%;  z-index: 1; float: left;}
+.divIt a{ width:185px; text-align:right; position: relative; color: black;    top: 39%;   float: right;      font-weight: bold; border: 2px solid black;  margin-bottom: 7px;  background-color: rgba(57, 57, 57, 0.3);  outline: 1px solid white;  border-radius: 2px; }
+
+
+#logoheadcont{position: relative; top: 27%;left: 25%;}
+#logohfooter{width:125px;}
+.Fcol2{padding: 64px 0px;}
+#myBtn {width: 53px; height: 53px; display: none; position: fixed; bottom: 72px; right: 14px; z-index: 99; font-size: 18px; border: none; outline: none; background-color: rgba(57, 57, 57, 0.8); color: white; cursor: pointer;    padding: 15px;    border-radius: 4px;  }
+#myBtn:hover { width:60px; height:60px; }
+.glyphicon-arrow-up{color:white; font-size:130%;}
+.container-footer{height:365px; width:100%; overflow:hidden;}
+.custom-googlemap {width:100%;height: 130%; position:relative; top:-105px; border:none;}
+#contact-main {width: 100%; height: 365px;  background: rgba(57, 57, 57, 0.8); }
+.map-view-switch {  width: 100px;  background-color: rgb(246, 236, 19);  position: absolute;  left: 50%;  z-index:2;    color: black;    font-family: Oswald,sans-serif;    text-transform: uppercase;    letter-spacing: 3px;     margin-left: -50px;    height: 28px;    line-height: 25px;    font-weight: 300;  text-align: center;    display: block;    border-radius: 0 0 4px 4px; border:1px dashed black;}
+.map-view-switch:hover{ cursor:pointer; }
+#contact-main h2{padding:86px 0px 20px 0px;}
+#main1{float:left; padding: 20px 94px 0px 194px;}
+#main2{float:left; padding: 20px 94px 0px 104px;}
+#main3{padding: 20px 94px 0px 56px;}
+#mainT .material-icons{font-size:51px; color:#ccc; padding-left: 37px;}
+#maidin3 .material-icons{padding-left: 2px;}
+#mainT{ padding-left: 216px; padding-top: 20px; font-size: 1.2em;  letter-spacing: 3px;}
+#contact-main ul {  background-color: rgb(246, 236, 19);  list-style-type: none;  margin: 0px;  margin: 0;  padding: 0;  overflow: hidden;}
+#contact-main ul > li  {float: left;}
+#contact-main ul > li > a {display:block;   color: white; text-align: center; padding: 27.5px 41px; text-decoration: none;  transition: all 0.3s ease; font-size:27.8px; }
+#mail{color:white;}
+#mail:hover{color:white; text-decoration:none;}
+#containerForm {  max-width: 412px;  height: 414px;   background-color:   transparent;  padding: 0px;  border: none;font-size: 80%; margin: 0 auto;}
+#cont ul{ list-style-type: none; color:#333; font-size: 1.2em;  letter-spacing: 3px;}
+#contmail{color:#333; padding-top: 57px;}
+#contmail p {width:100%; font-size: 17px;}
+#cont .material-icons{font-size: 51px;color: #ccc;}
+input[type=text], select, textarea {  width: 100%;  height: 48px;  color:white; padding-top: 10px;  border: 2px solid black;  margin-bottom: 7px;  background-color: rgba(57, 57, 57, 0.8);  outline: 1px solid white;  border-radius: 2px;}
+input[type=submit] {  background-color: #333;  color: white;  padding: 12px 20px;  border: 2px solid black;  border-radius: 4px; outline: 1px solid white; font-size: 17px; text-shadow: -1px 0 #333, 0 1px #333, 2px 0 #333, 0 -1px #333; cursor: pointer;}
+input[type=submit]:hover {background-color: rgb(246, 236, 19); color: white;}
+#msg{height:126px;}
+#contact-main h3{margin-top: 70px;}
+#imagearrow { width: 180px;}
+#imagearrow:hover {  animation: shake 0.5s;  animation-iteration-count: infinite;}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#cont{padding: 0px;}
+#row1{height:522px};
+
+
+#mappa{padding:0px;}
+textarea#message { width: 100%; height: 64px;padding-top: 29px; margin-bottom: 6px;}
+.contactrow{ position: absolute;  width: 100%;  margin: 0px;  z-index:1;}
+#contact-main .col-md-11, .col-md-1 {padding:0px;}
+#info{list-style-type: none; margin: 0px;  font-size: 16px; padding:0;}
+.span_title{margin: 0px;text-transform: uppercase;  letter-spacing: 3px; font-size: 1em; background-color: black;
+  color: #ccc;}
+.span_content{  font-size: 1.2em;  letter-spacing: 3px;}
+i.material-icons.desk { display:block;  color: white; line-height:17px;  font-size:55px;  position: relative; animation-name: example; animation-duration: 2s;        animation-iteration-count: infinite; text-shadow: -1px 0 #333, 0 2px #333, 1px 0 #333, 0 -1px #333; }
+.imgF{width: 185px;}
+.imgArrow {  position: absolute;  top: 4%;  left: 6%;  width: 200px;  z-index: 1;}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {color:#ccc;}
+  
+  50%  {color:#3B5998;}
+  
+  100% {color:#2e3c48;}
+}
+
+.fa-facebook:hover {
+  background: #3B5998;
+  color: white; border: transparent;
+  
+}
+
+.fa-skype:hover {
+  background: #55ACEE;
+  color: white;  border: transparent;
+}
+
+.fa-gitlab:hover {
+  background: #fc6d26;
+  color: white;  border: transparent; text-decoration: none;
+}
+
+.fa-linkedin:hover {
+  background: #007bb5;
+  color: white;  border: transparent;
+}
+
+
+
+
+i.material-icons.desk1 { display:block;  color: white; line-height:17px;  font-size:55px;  position: relative;text-shadow: -1px 0 #333, 0 2px #333, 1px 0 #333, 0 -1px #333; animation-name: example1; animation-duration: 2s;  animation-iteration-count: infinite;  }
+
+@-webkit-keyframes example1 {
+  0%   {color:rgb(230, 227, 88)}
+  
+  50%  {color:rgb(246, 236, 19);}
+  
+  100% {color:#ccc;}
+}
+
+#arrow1{animation-delay:0s;}
+#arrow2{animation-delay:0.1s;}
+#arrow3{animation-delay:0.2s;}
+
+
+
+#over{position:absolute; top:84px; left:30px;font-size: 15px;}
+#light {  font-size: 66px;  position: absolute;  left: 70px;  top: -21px;  color: #fc0; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+
+#I h3 { margin-bottom: 40px; }
+
+.intro { width: 50%; float: left; font-size: 18px;  padding: 26px 47px; margin:0; border-right: 2px dashed black; text-align: right; }
+
+
+.intro1 { width: 50%;  float: left;  font-size: 18px; padding: 26px 47px;   margin:0; }
+
+.line1, .line2, .line3, .line4 { color: white; }
+
+.line4 { font-size: 15px; }
+
+.flip-box { background-color: transparent;  width: 423px;  height:280px; perspective: 1000px; position:static; margin: 0 auto; box-shadow: 0 10px 6px -6px black; }
+
+.flip-box-inner { position: relative;  width: 100%;  height: 100%;  text-align: center;  transition: transform 0.8s; transform-style: preserve-3d;  }
+
+
+
+.flip-box-front,
+.flip-box-back { position: absolute; width: 100%; height: 100%;  backface-visibility: hidden; }
+
+.flip-box-front {background-color: transparent; color: black;   border: 2px dotted #333; }
+
+
+.profimg {   max-width: 100%; height: auto;  z-index: 1;  }
+.trapezoid {  border-bottom: 50px solid #cccccc ;  border-left: 25px dashed black; border-right: 25px dashed black; height: 0;   width: 790px;    transform: rotate(180deg);    position: relative;   left: 22%;    top: 0; }
+      
+
+#Work { height: 600px;  background-color: #333; color: white; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; border: 2px dashed rgb(246, 236, 19); }
+
+#myBtn1 {  opacity: 1 !important; }
+
+#myBtn1:hover {opacity: 1 !important;  }
+
+.modal { display: none;     opacity: 1 !important;  position: fixed;  top: 10px;}
+
+.modal:hover {  opacity: 1 !important;  }
+
+      /* Modal Content */
+.modal-content {  width: 57%;  height: 73%; overflow: hidden; position: relative;  background-color: #fefefe;   margin: auto;   padding: 0;   border: 1px solid #888;    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background-image: url('../images/bnb.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+        
+      -webkit-animation-name: animatetop;
+      -webkit-animation-duration: 0.4s;
+      animation-name: animatetop;
+      animation-duration: 0.4s
+      }
+.modal-header h2{color:white;}
+      /* Add Animation */
+      @-webkit-keyframes animatetop {
+        from {
+          top: -300px;
+        }
+
+        to {
+          top: 0;
+        }
+      }
+
+      @keyframes animatetop {
+        from {
+          top: -300px;
+        }
+
+        to {
+          top: 0;
+        }
+      }
+
+/* The Close Button */
+.close { color: white;   float: right;   font-size: 28px;  font-weight: bold;}
+
+.close:hover,
+.close:focus { color: #000; text-decoration: none; cursor: pointer; }
+
+.modal-header { padding: 2px 16px;  background-color: #40587c; color: white;}
+
+.modal-body { height: 75%; padding: 2px 16px; color: #333;    background-color: rgba(1,1,1,0.4); font-size: 20px;}
+
+.modal-footer {width:100%; padding: 2px 16px; background-color: #2e3c48; color: white; position: absolute; bottom:0; text-align: center;}
+
+.modal-body-text { text-align: center; width: 100%;   padding: 15px;  }
+
+.modal-body-text p { margin: 40px; }
+
+#aSito { text-decoration: none; background-color: #2e3c48; color: white; padding: 16px 20px; border-radius: 10px;  }
+
+#aSito:hover {  text-decoration: none;
+        color: #333;
+      background-color: #ccc;
+      }
+
+#svg-wrapper {  background-color: white; height: 60px;     box-shadow: inset 0 0 6px rgba(0,0,0,0.5);   margin: 0 auto;    margin-bottom: 45px;    position: relative;        top: 10%;        transform: translateY(-50%);  width: 320px;        left: 1%;      }
+.wrpp {width:320px; height:60px;}
+.shape {    height:60px; width: 320px;    display: block;        fill: transparent;        stroke-dasharray: 140 540;        stroke-dashoffset: -474;        stroke-width: 8px;        stroke: #2e3c48;      }
+
+.text {  color: #333;        font-size: 22px;        letter-spacing: 6px;        line-height: 32px;        position: relative;        top: -68px;      }
+
+@keyframes draw {
+0% {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+}
+
+100% {
+  stroke-dasharray: 760;
+  stroke-dashoffset: 0;
+  stroke-width: 3px;
+}
+}
+
+#svg-wrapper .shape { -webkit-animation: 0.5s draw linear forwards;   animation: 0.5s draw linear forwards;}
+
+#workcheck {color:black; margin:0 auto;}
+#lavori, #lavori1, #lavori2, #lavori3 {  background-color: white; padding: 10px; border: 3px solid  rgb(246, 236, 19);  width: 250px;  height: 300px;  position: relative;  top: 20px;  border-radius: 4px;  display: block;  margin: 36px auto; overflow: hidden;}     
+      
+#bb, #bb1, #bb2, #bb3{width: 225px;height: 275px; cursor: move;  position:absolute; border: 2px dashed #333;border-radius: 2px;background: white; }
+#imgDrag {  width: 244px;        height: 295px;        position: absolute;        background-repeat: no-repeat;        background-size: cover;        background-image: url('../images/bnb.png');        top: -12px;        left: -12px;        border-radius: 4px;   }
+.pProgress{color: white; font-size: 16px;  background-color: black; margin: auto; width: 186px; position: relative;  top: 66%; text-align: center;}
+.pN{  position: absolute;  color: black;  top: 45%;  left: 45%;  font-size: 24px;}
+     
+#one { width: 45px; height: 45px;  border-radius: 50%;   background: #333;  color: white;padding: 8px; display: none; position: absolute;        left: 56px;     top: 132px; }
+#two { width: 45px; height: 45px;   border-radius: 50%;     background: #333;  color: white;    padding: 8px; display: none;  position: absolute;  right: 28px;    top: 132px; }
+#bb:hover #one {      display: inline-block;        cursor: pointer;
+              -webkit-animation: slide-down .3s ease-out;
+              -moz-animation: slide-down .3s ease-out;
+              animation-fill-mode: forwards;
+            }
+
+   @-webkit-keyframes slide-down {
+              0% {
+                opacity: 0;
+                -webkit-transform: translateX(-100%);
+              }
+
+              100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+              }}
+
+    @-moz-keyframes slide-down {
+              0% {
+                opacity: 0;
+                -webkit-transform: translateX(-100%);
+              }
+
+              100% {
+                opacity: 1;
+                -webkit-transform: translateX(0);
+              } }
+#bb:hover #two {   display: inline-block;  cursor: pointer;
+
+                -webkit-animation: slide-down2 .3s ease-out;
+                -moz-animation: slide-down2 .3s ease-out;
+                animation-fill-mode: forwards;
+              }
+
+@-webkit-keyframes slide-down2 {
+        0% {
+             -webkit-transform: translateX(0);
+           }
+
+        100% {
+              -webkit-transform: translateX(-100%);
+            }
+         }
+
+@-moz-keyframes slide-down2 {
+    0% {
+         opacity: 0;
+         -webkit-transform: translateX(0);
+        }
+
+    100% {
+         opacity: 1;
+         -webkit-transform: translateX(-100%);
+                }
+              }
+
+#Work h2{text-align: center;  font-size: 46px; font-weight: bold;    text-shadow: -2px 0  #333, 0 1px #333, 1px 0 #333, 0 -1px  #333;  color:  white;    }
+.lavoricont{  width: 95%;  margin: 0 auto;}
+#Work hr {  margin: 5px auto;  width: 22%;  border-top: 3px solid white;  box-shadow: -2px 0 black, 0 2px black, -2px 0 black, 0 -1px black;}
+.imgF{width: 185px;}
+.imgCloud{  position: absolute;  top: 16%;  right: 6%;  width: 200px;}
+.bottomArrowUp {  display: none;  color: beige;  width: 67px;     position: fixed;  bottom: 35px;  right: 3px; }
+#V {  text-align: center;  margin: 0 auto;  position: relative;  left: 50%;  top: 0;  float: left;  font-size: 36px;}
+
+.hamburger {    position: fixed;  right: 65px;  top: 20px;  width: 50px;  height: 50px; z-index:1;}
+.closebtn{display:none;}
+.menu {  position: fixed;  right: 65px;  top: 53px;  height: auto;  width: auto;  display: block;  background-color: transparent;  text-decoration: none;  list-style-type: none;  z-index: 1;}
+.menudown{ position: fixed; right:-170px; top:20px; height: auto;   width: auto;   display: block;   background-color: transparent; text-decoration: none;list-style-type: none;}
+
+
+.menu li { display: block; margin: 10px auto; }
+
+.menu a { color:white;   display: block;  margin: 0;  line-height: 2em;  font-weight: 400;  text-transform: uppercase;   text-align: center;border:2px solid #f6ec13; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+.menu li:nth-child(1) a { background-color: transparent;   padding: 8px 34px;}
+.menu li:nth-child(2) a { background-color: transparent;  padding: 8px 33px;  width: 69%;  margin: 0 auto;}
+.menu li:nth-child(3) a { background-color: transparent;  padding: 8px 19px;}
+.menu li:nth-child(4) a { background-color: transparent;  padding: 8px 16px;  width: 70%; margin: 0 auto;}
+.menu li:nth-child(5) a { background-color: transparent;  padding: 8px 29px;}
+
+.menu li:nth-child(1) a:hover,
+.menu li:nth-child(2) a:hover,
+.menu li:nth-child(3) a:hover,
+.menu li:nth-child(4) a:hover,
+.menu li:nth-child(5) a:hover { background-color: #666; text-decoration: none;}
+
+
+#swithcMenu {  color: transparent;  border: 0;  background-color: transparent;}
+#navbs1, #navbs2, #navbs3 {  background-color: #ccc ; box-shadow: -1px 1px black, 0 1.5px black, 1px 0 black, 0 -1px black;  width: 28px;  display: block;  margin: 5px auto;  height: 2px;}
+
+.openbtn{  width: 50px;  height: 50px;  background:   transparent;  border: none;}
+
+.sidenav {  position: relative;
+  display: inline-block; height: 60%;  width: 300px;  position: fixed;  z-index: 1;  top: 0;  right: 0;  background-color: transparent;  overflow-x: hidden;  transition: 0.5s;  padding-top: 60px;  text-align:center;  z-index: 2;}
+.sidenav ul{right:65px; top:20px; height: auto;   width: 300px;   display: none;   background-color: transparent; text-decoration: none;list-style-type: none; z-index: 1;}
+.sidenav li{margin: 22px auto;}
+.sidenav a {   margin: 0;  padding: 12px 33px; line-height: 2em;  font-weight: 400;  text-transform: uppercase;  background-color: #666;  color: #333;box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;text-align: center;border: 2px solid #333;}
+
+.sidenav a:hover{  color: #f1f1f1;}
+
+/*** Menu ***/
+
+#mmainmenu			{display:none;}
+
+#mmainmenu ul { z-index: 1; margin: 0px;  width: 1284px;  list-style: none;  right: 0;  position: absolute;  text-align: center;  background-color:   rgba(51, 51, 51, 0.8);  padding: 0;}
+#mmainmenu ul li 	{ float: none;margin: 0 0px 0 0;position: relative; z-index: 2;  background-color:  #333;}
+
+#mmainmenu a {  color: black;display: block;padding: 14px 20px;font-family: oswald;text-transform: uppercase;border: 2px solid  #333;  box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;}
+#mmainmenu ul li {  float: none;  margin: 0 0px 0 0;  position: relative;  z-index: 2;  background-color:   #797981;}
+#mmainmenu a:hover {background:#666;}
+
+
+	/* Button Responsive Menu*/
+
+	.bttn-responsive-menu{background-color:#f6ec13; position: fixed;    top: 20px; z-index:2;   right: 20px; display: none;float: right;padding:5px;cursor:pointer; color: #ffffff; border-radius: 4px;}
+
+	.icon-bar 			{display: block; background-color:white;    box-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333 ;    width: 28px;      height: 2px;margin:5px; border-radius: 1px;}
+
+	.sshow{display:block!important}
+  .span_content{color:black;}
+  #swithcA{border:0; background-color: transparent !important;color: transparent;}
+  /*TOOGLE SWITCH*/
+  .onoffswitch {
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    z-index: 1;
+    width: 93px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+  .onoffswitch-label {
+      display: block; overflow: hidden; cursor: pointer;
+      border: 2px solid #f6ec13; border-radius: 20px;
+  }
+  .onoffswitch-inner {
+      display: block; width: 200%; margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+  }
+  .onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 37px;
+    padding: 0;
+    line-height: 33px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+  .onoffswitch-inner:before {
+      content: "ITA";
+      padding-right: 40px;
+      background-color: #0c0c0d;
+      color: white;
+      text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  }
+  .onoffswitch-inner:after {
+      content: "ENG";
+      padding-right: 10px;
+      background-color: #0c0c0d;
+      text-align: right;
+      color: white;
+      text-align: right;
+      text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+    
+  }
+  .onoffswitch-switch {
+    display: block;
+    width: 34px;
+    margin: 9px;
+  
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    bottom: 4px;
+    right: 56px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    filter: grayscale(60%);
+    background-color: transparent;
+  }
+  .onoffswitch-switch2 {
+    display: block;
+    width: 34px;
+    margin: 9px;
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    bottom: 4px;
+    right: 52px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+    filter: grayscale(35%);
+    background-color: transparent;
+  }
+
+
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+      margin-left: 0;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 9px; 
+  }
+  .rec{fill: rgb(246 236 19);height: 625px;width: 573px;}
+
+  .footerIcon{    width: 335px;    margin: 0;    position: absolute;    top: 22%;    right: 3%;  }
+  .footerIcon h4, h5{    text-align: center;    color: white;    text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  }
+
+  .footerIcon .fa-head {left:0;}
+  .footerIcon .fa-head .fa,.footerIcon .fab {    padding: 23px;    font-size: 20px;    width: 71px;    background-color: #333;  }
+
+/* Extra small devices (phones, 500px and down) */
+@media only screen and (max-width: 370px) {
+
+  #swithchMenu{position: relative; left:35%;}
+  .rec{fill: black;}
+  #Home{height:600px; border:1px solid black;}
+  .profiltrg1 {    position: absolute;    top: 235px;}
+  #h1Nome {    width: 303px;    position: relative;    top: 64px;  left: -1%;  font-size: 141%;    z-index: 1;    margin: 0 auto;}
+  #h3Nome {  z-index: 1;  position: relative;  top: 60px;  left: 0;  color: white;  font-size: 18px;  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  width: 260px;  margin: 0 auto;}
+  .lineP {  width: 95%;    position: relative;    top: -10%;      left: 0;    z-index: 1;    font-size: 14px;    margin: 0 auto;    height: 149px;    overflow: hidden;}  
+  .profiltrg0 {  top: 457px;    width: 192px;    left: 102px;    transform: rotate(-39deg);    height: 156px;}
+  .learn {    position: relative;    top: 40%;    left: 28%;    border-radius: 5px;    z-index: 1;}
+  i.material-icons.desk{line-height: 14px;    font-size: 46px;}
+  .fa-head .fa, .fab {    padding: 14px;    font-size: 20px;    width: 55px;    background-color: rgb(246, 236, 19);    color: white;}
+  .fa-head {    width: 266px;    position: relative;    top: 11%;    left: 2%;    margin: 0 auto;}
+  .dwnld0 {  background-color:#ccc;color:#333; border:2px dashed #333; text-decoration: none; text-shadow: none;  font-size: 13px;  position: absolute;  top: 6%;  left: 27%;  z-index: 1;}
+  .bottomArrow {  position: relative;  left: 0;  color: beige;  width: 44px;  top: 15%;  margin: 0 auto;}
+  #logohead { position: absolute;  top: 70px;  left: 97px;  width: 170px;}
+  #imghead {  max-width: 100%;  height: 358px;  opacity: 0.4;}
+  #Chisono2{padding:10px 30px;}
+
+  #Curriculum{ border-top:1px solid black;background-color:#40587c;}
+  #Curriculum h2{font-size: 25px; }
+  .profiltrg { position: absolute;  right: 0px;  opacity: 0.5;  width: 44%;}
+
+
+  #linkTimeline { position: static;  margin-top: 56px;  margin-bottom: 72px;}
+  #linkTimeline a{display:block;}
+  .event{top:-5px !important;}
+
+  
+
+  .look {  padding: 11px 27px;  margin: 0 auto;  font-size: 15px;  width: 250px;}
+  .dwnld {  padding: 11px 27px;  font-size: 15px;  width: 200px;  margin: 10px auto;}
+ 
+  .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px; }
+  #abilities {  max-width: 100%;  padding: 20px 25px;}
+  #abilities hr { margin-bottom: 50px;}
+  #Competenze{ position:relative; padding:10px; font-size:87%;}
+  #Competenze::before { position: absolute;  left: 50%;  top: 0px;}
+  
+  .roadmap.roadmap--orientation-auto .roadmap__navigation>* a i {  font-size: 44px;  position: relative;  top: -100px;}
+  #logohead2 {  position: absolute;  top: 33px;  left: 79px;  width: 200px;}
+  #imghead2{width:100%; height: auto; opacity:0.4;}
+  #contmail { color: #333;  padding: 0px 30px;}
+  #imagearrow {  display: none;}
+  #Work{height:auto;}
+  #Work h2 {  font-size: 30px;}
+  #Work hr {  width: 53%;}
+  .lavoricont {  width: 90%;  margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 {width: 250px;  height: 300px;  position: static;  display: block;  margin: 23px auto;}
+  #tt, #tt2{display: block; position: absolute; top:-11%;}
+  i.fa.fa-angellist{position: relative;  left: 124px;}
+  .flip-box {     width: 290px; height: 222px;}
+  #I{margin-top:10px;}
+  .intro {  font-size: 15px;  padding: 0 13px 0 33px;}
+  .intro1 {  font-size: 15px;  padding: 0 33px 0 13px;}
+  #containerForm {width: 86%; margin-bottom:32px; font-size: 80%; height:auto;}
+  #contact-main h2 { padding: 10px;}
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+  #contact-main ul {margin-top: 41px;}
+  .col-md-4 h3 { font-size: 18px;}
+  .container-footer {  height: 390px;}
+  #mappa{ height: 390px;}
+  #contact-main { width: 100%;    height: 390px; font-size: 80%;}
+  .map-view-switch{font-size: 80%; z-index: 2;}
+  #mappa { padding: 0px;         }
+  #ContattiRow h2 {margin:0; margin-top: 12px;}
+  .contactrow {      position: absolute;      left: 0%; z-index: 1;  }
+  #contact-main ul > li > a {    padding: 27.5px 32px;}
+  #iconarrow{position:relative; top:-58px;}
+  .imgF {display: none;}
+  .imgCloud{display:none;}
+  .imgArrow { display:none;}
+  textarea#message{   height: 64px;  padding-top: 29px;}
+  .bottomArrowUp{display:none;   position: fixed;  right: 0%;  color: beige;  width: 38px;  bottom: 6%;}
+  .trapezoid {  width: 242px;  position: absolute;  left: 12%;  top: -2px;}
+  #createdBy{display:none;}
+  #navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+  #navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+  .navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+  .navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+  .menu{display:none !important;}
+  #tt, #tt2 {display: none;}
+
+  #mmainmenu ul {  width: 281px;}
+
+  .bttn-responsive-menu {background-color:rgb(246, 236, 19); display: block; right:14px; top:14px;}
+  .span_title {  margin-bottom: 7px;  letter-spacing: 3px;  margin: 2px auto;  font-size: 1em; }
+  .span_content {  font-size: 15px; margin:0;}
+
+  /*MODAL*/
+  .modal{top:35px;}
+  .modal-content {  width: 80%; height: 300px; }
+  .modal-header {  padding: 2px 16px;  background-color: #40587c;color:  white;}
+  #Work h2 {  font-size: 28px;  margin: 9px;  color:   white;}
+  .modal-body {height: 81%;}
+  .modal-body-text {  text-align: center;  width: 100%;  position: absolute;  left: 0;}
+  .modal-body-text p { margin:20px;  font-size: 16px;}
+  #aSito {  text-decoration: none; background-color: #40587c;color:  white;  padding: 13px 18px;  border-radius: 10px;  font-size: 16px;}
+  .modal-footer {  padding: 2px 2px;  background-color: #40587c;color:  white; position: absolute; bottom:0;}
+  .modal-footer h3{  font-size: 16px;  text-align: center;}
+  .modal-header .close {  margin-top: 10px;}
+  i.material-icons.desk1 {  line-height: 13px;  font-size: 38px;}
+  /*CHECKBOX*/
+  .onoffswitch {  position: absolute;  top: 14px;      left: 36%;  z-index: 1;  width: 74px;}
+  .onoffswitch-switch {    display: block;    width: 23px;    margin: 0px;    position: absolute;    top: 0px;    bottom: 4px;    right: 48px;}
+  .onoffswitch-inner:after {padding-right: 8px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {height: 26px; line-height: 27px;  font-size: 13px;}
+
+
+  .footerIcon{display:none;}
+
+  .number{display: none;}
+
+  
+}
+
+@media only screen and (min-width: 371px) and (max-width: 390px) {
+  #swithchMenu{position: relative; left:35%;}
+  
+  .rec{fill: black;}
+  #Home{height:600px; border:1px solid black;}
+  
+  .profiltrg1 {    position: absolute;    top: 237px;}
+  
+  #h1Nome {   width: 283px;    font-size: 168%;    position: relative;    top: 65px;    left: -1%;    z-index: 1;}
+  #h3Nome {  z-index: 1;  position: relative;  left: 0;  top: 10%;  color: white;  font-size: 20px;  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  width: 290px;  margin: 0 auto;}
+  .lineP {  height: 165px;  position: relative;  top: -11%;  width: 92%;  left: 0%;  z-index: 1;  margin: 0 auto;  overflow: hidden;  font-size: 16px;}
+  .line-3{    text-align: center;    margin-bottom: 0;}
+
+ .profiltrg0 {  top: 459px;    width: 192px;    left: 105px;    transform: rotate(-39deg);    height: 156px;}
+  .learn {    position: relative;    top: 40%;    left: 28%;    border-radius: 5px;    z-index: 1;}
+  i.material-icons.desk{line-height: 14px;    font-size: 46px;}
+  .fa-head .fa, .fab {    padding: 14px;    font-size: 20px;    width: 55px;    background-color: rgb(246, 236, 19);    color: white;}
+  .fa-head {    width: 266px;    position: relative;    top: 1%;    left: 0%;    margin: 0 auto;}
+  .dwnld0 {    background-color: #ccc;    color: #333;    border: 2px dashed #333;    text-shadow: none;    padding: 14px 20px;    text-decoration: none;    font-size: 13px;    position: relative;    top: -4%;    left: 0;    z-index: 1;    margin: 0 auto;    width: 152px;    display: block;}
+.bottomArrow {  position: relative;  top: 5%;  left: 0;  color: beige;  width: 45px;  margin: 0 auto;}
+  #Curriculum{ border-top:1px solid black ;background-color:#40587c;}
+  #logohead { position: absolute;  top: 70px;  left: 92px;  width: 200px;}
+  #imghead {  max-width: 100%;  height: 388px;  opacity: 0.4;}
+  .intro{width:91%;}
+  .profiltrg {  position: absolute;  right: 0px;  opacity: 0.5;  width: 40%;}
+  #Competenze{padding:10px;}
+  #Competenze:before {width:77px;}
+  .bttn-responsive-menu {background-color:rgb(246, 236, 19); display: block; right:14px; top:14px;}
+  .roadmap.roadmap--orientation-auto .roadmap__navigation>* a i {  font-size: 44px;  position: relative;  top: -100px;}
+  #linkTimeline { position: static;  margin-top: 48px;  margin-bottom: 75px;}
+  #linkTimeline a{display:block;}
+  .event{top:-5px !important;}
+
+  .look {  padding: 11px 27px;  margin: 0 auto;  font-size: 15px;   width: 255px;}
+  .dwnld {  padding: 11px 27px;  font-size: 15px;  width: 212px;  margin: 10px auto;}
+
+  .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px; }
+  #abilities {  max-width: 100%;  padding: 20px 25px;}
+  #abilities hr { margin-bottom: 50px;}
+
+  #Work {  height: auto;}
+
+  #Work hr { width: 62%;}
+  .lavoricont {  width: 90%;  margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 {width: 250px;  height: 300px;  position: static;  display: block;  margin: 23px auto;}
+
+  #tt, #tt2 {display: none;}
+  #imghead2{width:100%; height: auto; opacity:0.4;}
+  #imagearrow {  display: none;}
+
+  i.fa.fa-angellist{position: relative;  left: 124px;}
+  #containerForm {    width: 337px;  margin: 19px;  font-size: 80%; height: auto;}
+  #containerFormcont{margin-bottom:20px;}
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+
+  #contact-main ul {margin-top: 0px;}
+  .col-md-4 h3 { font-size: 18px;}
+  .container-footer {     height: 445px;}
+  #ContattiRow h2{margin:0;}
+  .flip-box {  height: 237px;  width: 341px;  margin-bottom: 10px;}
+  #info { margin: 0 auto;  }
+  .span_title, .span_content {  font-size: 0.9em;  margin-bottom: 8px;}
+  #I {  margin-top: 0px;}
+  .intro { width: 50%; font-size: 15px;  padding: 0px 15px 0px 34px;}
+  .intro1 {  font-size: 14px;  padding: 0px 37px 0px 15px;}
+
+  #contact-main { width: 100%;     height: 445px;}
+  #mappa { padding: 0px;    height: 445px; }
+  #iconarrow {      position: relative;      top: 100px;  }
+
+  #contact-main ul > li > a {  padding: 27.5px 39px;}
+  .map-view-switch{font-size: 80%; z-index: 2;}
+  .contactrow{   position: absolute;    width: 100%;    margin: 0px;    z-index:1; left: 0%;}
+  .span_title, .span_content {font-size:0.8em;}
+  textarea#message {  width: 335px;  height: 64px;  padding-top: 29px;}
+  .trapezoid {width: 230px; position: absolute;left: 20%;top: -2px;}
+  .bottomArrowUp {  display: none;  position: fixed;  right: 0%;  color: beige;  width: 44px;  bottom: 6%;}
+  #createdBy {  font-size: 15px;}
+  i.material-icons.desk1 {  line-height: 13px;  font-size: 38px;}
+  .imgF { display:none; width: 105px;  position: relative;  left: 39%;}
+  .imgCloud{display: none;}
+  .imgArrow { display:none;}
+  #navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+  #navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+  .navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+  .navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+  .navigation li {    width: 90%;    display: block;    width: 90%;    margin: 3px auto;}
+  .navigation a {    display: block;    padding: 0.2em 0.43em 0.2em 1em;    margin: 0 auto;    line-height: 2em;    font-weight: 400;    color: #333;    text-transform: uppercase;    background-color: #666;    color: #333;    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;    text-align: center;}
+  .menu{display:none !important;}
+  #mmainmenu ul {width: 342px;}
+
+  .bttn-responsive-menu {display: block; top: 14px; right: 14px;}
+  /*MODAL*/
+  .modal-content {  width: 85%;  height: 300px;}
+  #Work h2 {  font-size: 32px;}
+  .modal-body-text {  text-align: center;  width: 100%;}
+  .modal-body-text p {  margin: 24px;}
+  .modal-footer h3 {  font-size: 18px;  text-align: center;}
+  #aSito {font-size: 17px;  padding: 13px 18px;}
+  .modal-header .close {  margin-top: 19px;}
+  /*CHECKBOX*/
+  .onoffswitch {  position: absolute;  top: 14px;      left: 38%;  z-index: 1;  width: 74px;}
+  .onoffswitch-switch {  display: block;  width: 23px;  margin: 0px;  position: absolute;  top: 0px;  bottom: 4px;  right: 48px;}
+  .onoffswitch-inner:after {padding-right: 8px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+ 
+  .number{display: none;}
+  .footerIcon{display:none;}
+}
+
+@media only screen and (min-width: 391px) and (max-width: 424px) {
+  .rec{fill: black;}
+  #Home{height:600px; border:1px solid black;}
+  .profiltrg0 {    position: relative;    top: 467px;}
+  #h1Nome {    width: 283px;    font-size: 168%;    position: relative;    top: 65px;    left: -1%;    z-index: 1;}
+  #h3Nome {  z-index: 1;  position: relative;  left: 0;  top: 10%;  color: white;  font-size: 20px;  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  width: 290px;  margin: 0 auto;}
+  .lineP {  height: 165px;  position: relative;  top: -25%;  width: 92%;  left: 0%;  z-index: 1;  margin: 0 auto;  overflow: hidden;  font-size: 16px;} 
+  .fa-head {  width: 318px;  position: relative;  top: -12%;  left: 0%;  margin: 0 auto;}
+  .dwnld0 {  background-color: #ccc;  color: #333;  border: 2px dashed #333;  text-shadow: none;  padding: 14px 20px;  text-decoration: none;  font-size: 13px;  position: relative;  top: -18%;  left: 0;  z-index: 1;  margin: 0 auto;  width: 167px;  display: block;}
+  .bottomArrow { position: relative; top: -10%; left: 0; color: beige;width: 45px;margin: 0 auto;}
+  .profiltrg1 {  position: absolute;  top: 235px;  transform: rotate(180deg);}
+  #Curriculum{border-top:1px solid black ; background-color:#40587c;}
+
+  i.material-icons.desk {line-height: 16px;font-size: 55px;}
+  .fa-head .fa, .fab{  padding: 20px;  font-size: 19px;  width: 67px;  background-color: rgb(246, 236, 19);  color: white;}
+  #linkTimeline {  position: relative;  top: -30px;  left: 0;  margin-top: 56px;  margin-bottom: 35px;}
+  .event{top:-5px !important;}
+  .look {width: 254px; font-size: 16px;margin-left: -120px;font-weight: bold;  display: block;  margin: 19px auto;}
+  .dwnld {width: 205px;font-size: 16px;  margin: 0 auto;  display: block;}
+  
+  .no-bullets {padding: 0 16px;}
+  .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px;}
+  #abilities {  max-width: 100%;  padding: 20px 15px;}
+  #abilities hr { margin-bottom: 50px;}
+
+  #Work {  height: auto;}
+  #Work h2{font-size: 35px;}
+  #Work hr{width: 47%;}
+  .lavoricont {  width: 90%;  margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 {width: 250px;  height: 300px;  position: static;  display: block;  margin: 23px auto;}
+  #tt, #tt2 {display: none;}
+  .flip-box { width: 378px; height: 284px;}
+  .intro, .intro1 {font-size: 16px;}
+  .contactrow {  width: 104%;}
+  .imgF { display: none; width: 115px;  position: relative;  left: 38%;}
+  .imgCloud{display:none;}
+  .imgArrow { display:none;}
+  #containerForm { max-width: 332px; height:auto;}
+
+  .bottomArrowUp {  display: none;  position: fixed;  right: 0%;  color: beige;  width: 44px;  bottom: 6%;}
+  #createdBy {  font-size: 15px;}
+  .trapezoid {position:absolute; width: 250px;}
+  #contact-main { height: 420px;}
+  .container-footer {  height: 420px;}
+
+
+  #navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+  #navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+  .navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+  .navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+  .navigation li {    width: 90%;    display: block;    width: 90%;    margin: 3px auto;}
+  .navigation a {    display: block;    padding: 0.2em 0.43em 0.2em 1em;    margin: 0 auto;    line-height: 2em;    font-weight: 400;    color: #333;    text-transform: uppercase;    background-color: #666;    color: #333;    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;    text-align: center;}
+  .menu{display:none;}
+  #mmainmenu ul {width: 342px;}
+
+  .bttn-responsive-menu {background-color:rgb(246, 236, 19);  display: block;}
+  /*MODAL*/
+  .modal-content {  width: 85%; height: 300px;}
+  #Work h2 {  font-size: 32px;}
+  .modal-body{ height:82%;}
+  .modal-body-text {  text-align: center;  width: 100%; }
+  .modal-body-text p {  margin: 24px;}
+  .modal-footer h3 {  font-size: 18px;  text-align: center;}
+  #aSito {font-size: 17px;  padding: 13px 18px;}
+  .modal-header .close {  margin-top: 21px;}
+  i.material-icons.desk1 {line-height: 12px;  font-size: 45px;}
+  /*CHECKBOX*/
+  .onoffswitch {  position: absolute;  top: 14px;      left: 38%;  z-index: 1;  width: 74px;}
+  .onoffswitch-switch {  display: block;  width: 23px;  margin: 0px;  position: absolute;  top: 0px;  bottom: 4px;  right: 37px;}
+  .onoffswitch-inner:after {padding-right: 8px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+  .number{display: none;}
+  .footerIcon{display:none;}
+}
+
+@media only screen and (min-width: 425px) and (max-width: 479px) {
+  .rec{fill: black;}
+  #Home{border:1px solid black;}
+  #h1Nome {    width: 384px;    font-size: 198%;    position: relative;    top: 60px;    left: -1%;    z-index: 1;    margin: 0 auto;}
+  #h3Nome {  z-index: 1;  position: relative;  left: 0;  top: 52px;  color: white;  font-size: 19px;  text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  margin: 0 auto;  width: 276px;}
+  .lineP {  position: relative;  top: -27%;  width: 96%;  left: 0%;  height: 188px;  margin: 0 auto;  overflow: hidden;}
+
+  .profiltrg1 {  position: absolute; top: 235px; transform: rotate(180deg);  }
+
+  i.material-icons.desk{line-height: 17px;        font-size: 58px;}
+  .fa-head {    top: -17%;    left: 0;    margin: 0 auto;    width: 308px;}
+  .fa-head .fa, .fab {     padding: 21px; font-size: 19px;  width: 65px; background-color: rgb(246, 236, 19);  color: white;}
+  .dwnld0 {    background-color: #ccc;    color: #333;    border: 2px dashed #333;    text-decoration: none;    text-shadow: none;    font-size: 15px;    position: relative;    top: -21%;    left: 0;    z-index: 1;    width: 184px;    margin: 0 auto;    display: block;}
+  .profiltrg0 {    width: 287px;    top: 460px;}
+ .bottomArrow {  left: 0%;  top: -16%;  margin: 0 auto;  width: 59px; }
+
+  #imghead {    width: 100%;    height: 430px;    opacity: 0.4;}
+
+  #logohead { position: absolute;  top: 70px;  left: 111px; max-width: 219px;}
+  #Chisono2{font-size: 80%;}
+  #info{font-size: 95%;}
+  #linkTimeline {  position: relative;  margin-top: 67px;  margin-bottom: 0px;  left: 0;}
+  #linkTimeline a{display:block;}
+  .event{top:-5px !important;}
+  .look {  padding: 15px 28px;  font-size: 15px;  margin: 0 auto;  width: 252px;}
+  .dwnld { padding: 15px 41px; font-size: 15px;  width: 227px;  margin: 16px auto;}
+
+  .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px;}
+  #abilities {  max-width: 100%;  padding: 20px 50px;}
+  #abilities hr { margin-bottom: 50px;}
+
+  #containerForm{max-width:100%}
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+  #ContattiRow {padding:10px;}
+ 
+  #contact-main ul {margin-top: 0px;}
+  #iconarrow {      position: relative;      top: 100px;  }
+  .map-view-switch{font-size: 80%; z-index: 2;}
+  .contactrow{   position: absolute;    width: 100%;    margin: 0px;    z-index:1; left: 0%;}
+  #contact-main ul > li > a { padding: 27.5px 45px;}
+  #imagearrow { display: none;}
+  #logohead2{  position: absolute;  top: 21%;  left: 21%;}
+  #Curriculum{background-color:#40587c; border-top:1px solid black;}
+  #Curriculum h2{font-size: 32px;}
+  #Work {  height: auto;}
+  #Work h2 { font-size: 42px;}
+  #Work hr {width: 56%;}
+  .lavoricont {  width: 90%;  margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 {width: 250px;  height: 300px;  position: static;  display: block;  margin: 23px auto;}
+
+  #tt, #tt2 {display: none;}
+  #ContattiRow {  padding: 0;}
+  #I {  margin-top: 0px;}
+  .flip-box { height: 248px; margin-bottom:10px;}
+    .intro {  width: 50%;  font-size: 15px;   padding: 0px 18px 0px 42px;}
+  .intro1 {  font-size: 15px;  padding: 0px 42px 0px 18px;}
+  .trapezoid {  width: 266px; position: absolute;}
+  #contact-main {  height: 420px;}
+  .container-footer { height: 420px;}
+  #containerForm {  max-width: 83%; height: auto;}
+  .bottomArrowUp {  display: none;  position: fixed;  right: 0%;  color: beige;  width: 44px;  bottom: 6%;}
+  #createdBy {  font-size: 15px;}
+  i.material-icons.desk1 {line-height: 13px;  font-size: 47px;}
+  .imgF { display: none; width: 108px;  left: 38%;  position: relative;}
+  .imgArrow { display:none;}
+  .span_content{margin:0;     font-size: 1.0em;}
+  .span_title {margin-bottom: 4px;}
+  #navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+  #navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+  .navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+  .navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+  .navigation li {    width: 90%;    display: block;    width: 90%;    margin: 3px auto;}
+  .navigation a {    display: block;    padding: 0.2em 0.43em 0.2em 1em;    margin: 0 auto;    line-height: 2em;    font-weight: 400;    color: #333;    text-transform: uppercase;    background-color: #666;    color: #333;    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;    text-align: center;}
+  .menu{display:none;}
+  #mmainmenu ul {width: 392px;}
+
+  .bttn-responsive-menu {background-color:rgb(246, 236, 19);display: block; right:14px; top:14px;}
+  /*MODAL*/
+  .modal-content {  width: 85%; height: 300px;;}
+  #Work h2 {  font-size: 32px;}
+  .modal-body{ height:86%;}
+  .modal-body-text {  text-align: center;  width: 100%;}
+  .modal-body-text p {  margin: 24px;}
+  .modal-footer h3 {  font-size: 18px;  text-align: center;}
+  #aSito {font-size: 17px;  padding: 13px 18px;}
+  /*CHECKBOX*/
+  .onoffswitch {  position: absolute;  top: 7px;      left: 40%;  z-index: 1;  width: 74px;}
+  .onoffswitch-switch {  display: block;  width: 23px;  margin: 0px;  position: absolute;  top: 0px;  bottom: 4px;  right: 37px;}
+  .onoffswitch-inner:after {padding-right: 8px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+  
+  .number{display: none;}
+  .footerIcon{display:none;}
+
+}
+/* Ssmall devices (phones, 600px and down) */
+@media only screen and (min-width: 480px) and (max-width: 567px) {
+  .rec{fill: black;}
+  #Home{height:600px; border:1px solid black;}
+
+#h1Nome {  width: 436px;  font-size: 207%;  position: absolute;  top: 1%;  left: 6%;  z-index: 1;}
+#h3Nome {  color: white;  z-index: 1;  position: absolute;  left: 16%;  top: 1.5%;  color: white;  text-shadow:-2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+.lineP {  position: relative;  top: -14%;  width: 92%;  left: 0%;  z-index: 1;  margin: 0 auto;  height: 185px;  overflow: hidden;}
+
+i.material-icons.desk {    line-height: 16px;  font-size: 55px;}
+.bottomArrow {  position: relative;  left: 0;  width: 67px;  top: 7%;  margin: 0 auto;}
+.profiltrg1 {    position: absolute;    top: 235px;    transform: rotate(180deg);}
+.fa-head .fa, .fab{  padding: 18px;  font-size: 20px;  width: 69px;background-color: rgb(246, 236, 19);  color: white;}
+.fa-head {  top: 4%;  left: 0;  margin: 0 auto;  width: 339px; }
+.dwnld0 {  font-size: 15px;  position: absolute;  top: 7%;  left: 32%;  z-index: 1;   background-color:#ccc;color:#333; border:2px dashed #333; text-decoration: none; text-shadow: none; border-radius: 2px; }
+#logohead { position: absolute;  top: 70px;  left: 142px; max-width: 219px;}
+#Chisono2{font-size: 80%;}
+#linkTimeline {  position: relative;  margin-top: 34px;  margin-bottom: 0px;  left: 0;}
+#linkTimeline a{display:block;}
+.event{top:-5px !important;}
+.look {  padding: 14px 28px;  margin: 0px auto;  font-size: 16px;  width: 264px;}
+.dwnld {  padding: 11px 30px;  font-size: 16px;  width: 219px;  margin: 25px auto;}
+#Curriculum{border-top:1px solid black; background-color:#40587c;}
+#Work {height: auto;}
+#Work hr{width: 60%;}
+.Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px;}
+  #abilities {  max-width: 100%;  padding: 20px 50px;}
+  #abilities hr { margin-bottom: 50px;}
+.lavoricont {width: 470px;  margin: 0 auto;}
+#lavori, #lavori1, #lavori2, #lavori3 { width: 215px;  height: 300px;  left: 15px;  display: inline-block;  margin:0 auto;}
+#bb, #bb1, #bb2, #bb3 { width: 187px;  height: 275px;}
+#imgDrag {  width: 211px;  height: 297px; }
+#tt, #tt2 {top: -22%;}
+.flip-box {    height: 235px;  margin-bottom: 5px;}
+#I {  margin-top: 0px;}
+.intro, .intro1 {font-size: 17px; padding: 0px 32px;}
+.trapezoid{  width: 302px;  position: absolute;}
+
+#containerForm{max-width:80%}
+i.fa.fa-angellist{position: relative;  left: 200px;}
+#imagearrow { display: none;}
+.contactrow {    position: absolute;    width: 100%; left:0;}
+#mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+#mainTT .row   { margin:0px; }
+#contact-main ul > li > a { padding: 27.5px 51px;}
+
+#contact-main {  height: 425px;}
+.container-footer { height: 425px;}
+#containerForm {  max-width: 83%; height: auto;}
+.bottomArrowUp {  display: none;  position: fixed;  right: 2%;  color: beige;  width: 44px;  bottom: 6%;}
+#createdBy {  font-size: 15px;}
+.imgF { display:none; width: 95px;     position: relative;  left: 41%;}
+.imgCloud{display: none;}
+.imgArrow { display:none;}
+.span_content{margin:0;     font-size: 1.0em;}
+.span_title {margin-bottom: 4px;}
+
+#navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+#navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+.navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+.navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+.navigation li {    width: 90%;    display: block;    width: 90%;    margin: 3px auto;}
+.navigation a {    display: block;    padding: 0.2em 0.43em 0.2em 1em;    margin: 0 auto;    line-height: 2em;    font-weight: 400;    color: #333;    text-transform: uppercase;    background-color: #666;    color: #333;    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;    text-align: center;}
+.menu{display:none;}
+#mmainmenu ul {width: 444px;}
+.bttn-responsive-menu {background-color:rgb(246, 236, 19); display: block;}
+/*MODAL*/
+.modal-content {  width: 85%;  height: 77%;}
+#Work h2 {  font-size: 32px;}
+
+.modal-body{ height:86%;}
+.modal-body-text {  text-align: center;  width: 100%;  }
+.modal-body-text p {  margin: 24px;}
+.modal-footer h3 {  font-size: 18px;  text-align: center;}
+#aSito {font-size: 17px;  padding: 13px 18px;}
+#one {position: absolute;left: 42px;}
+#two {  position: absolute;  right: 6px;}
+/*CHECKBOX*/
+.onoffswitch {  position: absolute;  top: 14px;      left: 41%;  z-index: 1;  width: 74px;}
+.onoffswitch-switch {  display: block;  width: 23px;  margin: 0px;  position: absolute;  top: 0px;  bottom: 4px;  right: 37px;}
+.onoffswitch-inner:after {padding-right: 8px;}
+.onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+
+.number{display: none;}
+.footerIcon{display:none;}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 568px) and (max-width: 767px){
+  #h3Nome {    z-index: 1;    position: absolute;    left: 25%;    top: 2%;    color: white;    text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;}
+  .rec{fill: black;}
+  #Home{border:1px solid black;}
+
+  #h1Nome {    width: 559px;    position: relative;    left: 0;    top: 7%;    font-size: 48px;   z-index: 1;    margin: 0 auto;}
+  #h3Nome {  z-index: 1;  position: relative;  left: 0;  top: 5%;  color: white;  text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;  margin: 0 auto;  width: 346px;}
+  .profiltrg0 {  position: relative;  top: 443px;}
+
+  .lineP {  position: relative;  top: -31%;  width: 89%;  z-index: 1;  left: 2%;  margin: 0 auto;}
+  .dwnld0 {  font-size: 16px;  position: relative;  top: -25%;  left: 0;  background-color: rgba(0, 0, 0, 0.7);  border-radius: 2px;  outline: 1px solid white;  z-index: 1;  display: block;  width: 176px;  margin: 0 auto;}
+  .fa-head {  width: 336px;  position: relative;  top: -21%;  left: 0;  margin: 0 auto;}
+  .fa-head .fa, .fab {  padding: 22px;  font-size: 22px;  width: 72px;}
+  .bottomArrow {    position: relative;    left: 0;    width: 55px;    top: -20%;    margin: 0 auto;}
+  .profiltrg1 {    position: absolute;    top: 235px;} 
+
+  #imghead { width: 100%; height: 474px; opacity: 0.4;}
+  #logohead { position: absolute;    top: 1%;    left: 29%; width: 273px;}
+  #Curriculum{border-top:1px solid black; background-color:#40587c;}
+  .profiltrg {  width: 33%; position: absolute; right: 0px; opacity: 0.5; }
+  #Chisono1{ width: 47%;    float: left;    padding: 0px; height: 295px; overflow:hidden;}
+  .profilimg1{max-width: 400px;   height: auto;}
+  #Chisono2{ width: 50%;    font-size: 60%;    float: left;   padding: 9px;    background-color: white; height: 295px;}
+  #Chisono3{ float: left;}
+  #iconarrow{position: relative; top: -76px;}
+  #linkTimeline {  margin-top: 66px; margin-bottom: 45px;}
+  .event{top:-5px !important;}
+  .look {   margin-right: 50px; font-size: 17px; margin-left: -151px;}
+  .dwnld { font-size: 17px;}
+  
+  .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px;}
+  #abilities {  max-width: 100%;  padding: 20px 50px;}
+  #abilities hr { margin-bottom: 50px;}
+
+  #logohead2 { position: absolute; top: 64px; left: 176px;}
+  #Work{height:auto;}
+  #Work h2{font-size: 49px;}
+  #Work hr{width: 40%;}
+  #tt, #tt2 {display: none;}
+  .flip-box { height: 280px;}
+  .intro {  width: 50%;  margin-top: 0px;  font-size: 16px;  line-height: 1;  padding: 26px 47px;}
+  .intro1 {  width: 50%;  float: left;  font-size: 16px;  padding: 26px 47px;}
+  #containerForm {  max-width: 80%; height:auto; margin: 0px auto;}
+  #ContattiRow{padding:0px;}
+  i.fa.fa-angellist{position: relative;   left: 250px;}
+  .trapezoid {width: 70%;    position: absolute;    left: 15%;}
+  #contact-main {  height: 426px;}
+  .container-footer { height: 426px;}
+  .lavoricont {    width:515px;    margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 { display: inline-block;   margin: 0px;}
+  .imgF {    width: 117px;    position: relative;    top: -11px;    left: 42%;}
+  .imgCloud{display: none;}
+  .imgArrow { display:none;}
+  .contactrow {  position: absolute;    width: 100%; left:0px;}
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left; text-align: center;}
+  #mainTT .material-icons {font-size: 46px;}
+  #mainTT .row   { margin:0px; }
+  #contact-main ul > li > a { padding: 27.5px 62px;}
+  .bottomArrowUp {    position: absolute;    left: 89%;    width: 67px;    top: 80%;}
+  #navnav {    z-index: 1;    background-color: transparent; color: #333;  z-index: 4;  border: none;}
+  #navbs1, #navbs2, #navbs3 {    background-color: #ccc !important; box-shadow: -1px 0#333, 0 1px #333, 1px 0 #333, 0 -1px    #333 !important;}
+  .navbar-nav {  float: none;    margin: auto;    padding: 0px;    width: 100%;}
+  .navigation {  width: 100%;      background-color:     transparent;    text-decoration: none;    list-style-type: none; box-shadow: none;}
+  .menu { display: none !important;}
+
+  .navigation li {    width: 90%;    display: block;    width: 90%;    margin: 3px auto;}
+  .navigation a {    display: block;    padding: 0.2em 0.43em 0.2em 1em;    margin: 0 auto;    line-height: 2em;    font-weight: 400;    color: #333;    text-transform: uppercase;    background-color: #666;    color: #333;    box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;    text-align: center;}
+  .ddropdown {    position: fixed;}
+  #mmainmenu ul {width: 522px;}
+
+  .bttn-responsive-menu {background-color:rgb(246, 236, 19); display: block;}
+  /*MODAL*/
+  .modal-content {  width: 85%; height: 60%;}
+  #Work h2 {  font-size: 32px;}
+  .modal{top:125px;}
+  .modal-body {  height: 88%; }
+  .modal-body-text{width: 100%;}
+  .modal-body-text p { margin: 20px;  font-size: 16px;}
+  .modal-footer h3 {  font-size: 18px;  text-align: center;}
+  #aSito {font-size: 15px;  padding: 13px 17px;}
+  /*CHECKBOX*/
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {    right: 3px;}
+  .onoffswitch {  position: absolute;  top: 14px;      left: 42%;  z-index: 1;  width: 74px;}
+  .onoffswitch-switch {  display: block;  width: 23px;  margin: 7px;  position: absolute;  top: 0px;  bottom: 4px;  right: 37px;}
+  .onoffswitch-inner:after {padding-right: 8px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+  .number{display: none;}
+  .footerIcon{display:none;}
+  }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #Home {   background: linear-gradient( 200deg ,rgb(0 0 0 / 20%) 30%,rgb(0 0 0) ), linear-gradient(90deg , #1f2021 100%, #000000 72% );    overflow: hidden !important;}
+  #h1Nome {    width: 443px;    position: relative;    top: 7%;    font-size: 50px;    z-index: 1;    margin: 0 auto;    left: -1%;    padding: 0;}
+  #h3Nome { position: relative;  top: 6%;  color: white;  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -1px black;  z-index: 1;  margin: 0 auto;  width: 351px;  left: 0;}
+  .rec1 {  position: relative;    top: -608px;    height: 238px;    left: -175px;}
+  .profiltrg1 {    position: absolute;    top: 212px;    left: 1%;}
+  .profiltrg0 {    position: relative;    top: 429px;}
+  .lineP {    position: relative;    top: -26%;    left: 0;    width: 593px;    height: 197px;    z-index: 1;    overflow: hidden;    margin: 0 auto;}
+  .dwnld0 {    font-size: 17px;    position: relative;    top: -20%;    z-index: 1;    background-color: rgba(0, 0, 0, 0.9);    border-radius: 2px;    outline: 1px solid white;    width: 185px;    left: 0;    margin: 0 auto;    display: block;}
+ .fa-head {  width: 348px;  position: relative;  top: -16%;  left: 0;  margin: 0 auto;}
+
+ .bottomArrow {  position: relative;  left: 91%;  color: beige;  width: 67px;  top: -68%;}
+ 
+  #Chisono2{    font-size: 80%;}
+  #imghead { width: 100%; height: 550px; opacity: 0.4;}
+  #logohead { position: absolute;    top: 2%;    left: 31%;    width: 294px;}
+  .profiltrg {    position: absolute;    right: 0px;    opacity: 0.5;    width: 42%;}
+  .intro {    width: 100%;    color: #333;    margin-top: 35px;    font-size: 120%;    line-height: 1.2;    padding: 0px 30px 10px 0px;    direction: rtl;}
+  #linkTimeline{margin-top: 56px;    margin-bottom: 35px; position: relative; left: 39%;}
+  .event{top:-5px !important;}
+  .look{margin-left: -172px; margin-right:75px;}
+ #Curriculum{background-color: #40587c; border-top: black;}
+ .Ab1, .Ab2, .Ab3, .Ab4 {margin-bottom:50px;}
+ #abilities {  max-width: 100%;  padding: 20px 50px;}
+ #abilities hr { margin-bottom: 50px;}
+ 
+ 
+ #ContattiRow{padding: 0px 10px 0px 10px;}
+  #containerFormcont{    padding-left: 0px;}
+  #imagearrow {    width: 143px;}
+  i.fa.fa-angellist{display:none;}
+  #Work{height:auto;}
+  #Work hr {width: 34%;}
+  .lavoricont {  width: 551px;  margin: 0 auto;}
+ #lavori, #lavori1, #lavori2, #lavori3 {  width: 250px;  display: inline-block;  margin: 6px 10px;}
+
+  #tt, #tt2{display: block; position: absolute; top:-22%;}
+  #Contatti h2 {margin-top: 10px;}
+  #I {    margin: 55px auto;}
+  .intro {    width: 50%; color:black;  margin-top: 0px;    font-size: 17px;  padding: 10px 30px;    direction: rtl;}
+ .intro1 {  width: 50%;  float: left;  font-size: 17px;  padding: 10px 30px;}
+ .trapezoid {  width: 540px;  position: absolute; left:22%; }
+  .contactrow {  position: absolute;    width: 100%; left:0px; }
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; padding-left:0px;}
+  
+  .number {    width: 185px;    height: 222px;    position: absolute;    left: 2%;}
+  .divuk{  width: 170px;  height: 62px;  margin: 0;  left: 3%;  top: 22%;}
+  .pngUK{  width: 34px;  top: 6%;  z-index: 1;  float: left;  display: block;}
+  .divuk a { width:128px; position: relative;  color: black;  top: 36%;  float: right;  font-weight: bold;  font-size: 12px;}
+  .divIt{  width: 166px;  height: 61px;  position: absolute;  left: 3%;}
+  .pngIT{  width: 36px;  position: absolute;  top: 12%;  z-index: 1;  float: left;}
+  .divIt a{ width:120px; position: relative;  color: black;  top: 22%;  float: right;  font-weight: bold;  font-size: 12px;}
+ 
+  #contact-main ul > li > a { padding: 27.5px 88px;}
+  #containerForm {  max-width: 395px;  height: auto; margin-bottom:20px;} 
+  #contact-main {height: 375px;}
+  .container-footer {    height: 375px;}
+  #mappa {height: 375px;}
+  .imgF {  width: 136px;  position: absolute;  top: 16%;  left: 3%;}
+  .imgCloud {    position: absolute;    top: 16%;    right: 3%;    width: 152px;}
+  .imgArrow { display:none;}
+  .bottomArrowUp {  display: none;  position: fixed;  right: 2%;  color: beige;  width: 44px;  bottom: 6%;}
+  #createdBy {  font-size: 15px;}
+  #ContattiRow h2{margin-top: 15px;}
+ .span_title{  margin-bottom: 4px;}
+  .span_content{ margin-bottom: 0px;}
+  .flip-box {height: 250px;  margin-bottom: 7px;}
+  #I{margin-top:0;}
+  .hamburger { position: fixed;  right: 65px;  top: 20px;  width: 50px;  height: 50px; z-index:1;}
+  .closebtn{display:none;}
+  .footerIcon .fa-head .fa, .footerIcon .fab {    padding: 16px;    font-size: 15px;    width: 56px;}
+  i.material-icons.desk1 {    line-height: 14px;    font-size: 46px;}
+  .icon-bar {width: 33px;    height: 3px;    margin: 5px;} 
+  .menu { display: none;}
+  .menudown{ position: fixed; right:-170px; top:20px; height: auto;   width: auto;   display: block;   background-color: transparent; text-decoration: none;list-style-type: none;}
+  
+  
+  .menu li { width: 136px; display: block; margin: 10px auto; }
+  
+  .menu a {    display: block;  margin: 0;  line-height: 2em;  font-weight: 400;  text-transform: uppercase;  background-color: #666;  color: #333;box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;text-align: center;border: 2px solid #333;}
+  .menu li:nth-child(1) a { background-color: #797981;  border-top: 1px solid  #333; padding: 8px 34px;}
+  .menu li:nth-child(2) a { background-color: #797981;  padding: 8px 33px;  width: 69%;  margin: 0 auto;}
+  .menu li:nth-child(3) a { background-color: #797981;  padding: 8px 19px;}
+  .menu li:nth-child(4) a { background-color: #797981;  padding: 8px 16px;  width: 70%; margin: 0 auto;}
+  .menu li:nth-child(5) a { background-color: #797981;  padding: 8px 29px;}
+  
+  .menu li:nth-child(1) a:hover,
+  .menu li:nth-child(2) a:hover,
+  .menu li:nth-child(3) a:hover,
+  .menu li:nth-child(4) a:hover,
+  .menu li:nth-child(5) a:hover { background-color: #666; text-decoration: none;}
+  
+  #navbs1, #navbs2, #navbs3 {  background-color: #ccc ; box-shadow: -1px 1px black, 0 1.5px black, 1px 0 black, 0 -1px black;  width: 28px;  display: block;  margin: 5px auto;  height: 2px;}
+  
+  .openbtn{  width: 50px;  height: 50px;  background:   transparent;  border: none;}
+  
+  .sidenav {  height: 60%;  width: 0;  position: fixed;  z-index: 1;  top: 0;  right: 0;  background-color: transparent;  overflow-x: hidden;  transition: 0.5s;  padding-top: 60px;  text-align:center;  z-index: 2;}
+  .sidenav ul{right:65px; top:20px; height: auto;   width: 300px;   display: block;   background-color: transparent; text-decoration: none;list-style-type: none; z-index: 1;}
+  .sidenav li{margin: 22px auto;}
+  .sidenav a {   margin: 0;  padding: 12px 33px; line-height: 2em;  font-weight: 400;  text-transform: uppercase;  background-color: #666;  color: #333;box-shadow: -1px 1px, -2px 2px, -3px 3px, -4px 4px;text-align: center;border: 2px solid #333;}
+  
+  .sidenav a:hover{  color: #f1f1f1;}
+  
+  .sidenav .closebtn {  width: 50px;  height: 50px;  color:   white;  position: absolute;  top: 11px;  right: 52px;  font-size: 30px;  margin-left: 0;  line-height: normal;  padding: 10px; box-shadow: none;}
+   .presentazione{width: 70%; float: left; height: 100%;}
+  
+   #mmainmenu ul {    width: 680px;}
+ 
+   /* nav2 */
+   #site-title a {font-size:25px;margin-left:10px;}
+   #mmainmenu			{display:none; position: absolute;}
+   #mmainmenu ul li 	{float: none;}
+   
+   .bttn-responsive-menu{background-color: rgb(246, 236, 19); display:block; position: fixed; top: 20px; right: 20px;}	ù
+
+   /*MODAL*/
+
+    .modal-content { width: 85%; height: 49%;}
+    #Work h2 {  font-size: 32px;}
+    .modal-body{ height:68%;}
+    .modal-body-text { text-align: center;  width: 100%;  }
+    .modal-body-text p { margin: 11px;  font-size: 16px;}
+    .modal-footer h3 {  font-size: 18px;  text-align: center;}
+    #aSito {font-size: 10px;  padding: 13px 18px;}
+
+   /*CHECKBOX*/
+   .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {    right: 3px;}
+.onoffswitch {  position: absolute;  top: 14px;      left: 45%;  z-index: 1;  width: 74px;}
+.onoffswitch-switch {  display: block;  width: 29px;  margin: 0px;  position: absolute;  top: 0px;  bottom: 4px;     right: 44px;}
+.onoffswitch-inner:after {padding-right: 8px;}
+.onoffswitch-inner:before, .onoffswitch-inner:after {height: 25px; line-height: 30px;  font-size: 13px;}
+.footerIcon .fa-head {  width: 132px;  position: relative;  top: -16%;  left: 0;  margin: 0 auto;}
+.footerIcon {    width: 158px;    margin: 0;    position: absolute;    top: 6%;    right: 3%;}
+       }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+ #Home {    height: 635px; background: linear-gradient( 200deg ,rgb(0 0 0 / 20%)  30%,rgb(0 0 0)  ), linear-gradient(90deg  , #1f2021 80%, #000000 72% );    overflow: hidden !important;}
+ .rec1{  transform: rotate(47deg);  position: relative;  top: -470px; width: 604px;  height: 238px;  left: -176px;}
+  .profiltrg0 {  position: relative;  top: 507px;  width: 289px;  left: 40px;  transform: rotate(-39deg);  height: 233px;}
+  .profiltrg1 {  position: absolute;  top: 209px;  transform: rotate(180deg);  left: 8px;}
+ 
+ #h1Nome {    width: auto;    position: absolute;    left: 18%;    top: 1%;    font-size: 61px;    z-index: 1;}
+ #h3Nome {  color: white;  position: absolute;  left: 28%;  top: 3%;  color: white;}
+ .lineP {  position: relative;  top: -8%;  width: 653px;  z-index: 1;  left: 12%;}
+  #logohead {    position: absolute;    top: 2%;    left: 35%;    width: 294px;}
+  .dwnld0 {  position: absolute;  top: 14.5%;  left: 53%;}
+  .fa-head {  top: 8%;  left: 6%;}
+
+  .bottomArrow {  position: relative;  left: 89%;  color: beige;  width: 67px;  top: -45%;}
+
+  .menu li {  width: 144px;}
+  .menu a {  color: white;}
+  .line1, .line2, .line3, .line4 {  display: block;  color: #333;  list-style-type: none;  padding: 0px;}
+  .span-content, .span-title {font-size:0.8em;}
+  .span_title {  margin-bottom: 0px;}
+  #I {  margin-top: 0px;}
+  .flip-box { height: 276px;}
+  .intro { margin-top: 0; padding: 13px 22px;}
+  .intro1 {  padding: 13px 22px;}
+  #ContattiRow h2{    margin-top: 20px;}
+  .intro {  width: 100%;  margin-top: 24px;  font-size: 105%;  line-height: 1.2;  padding: 0px 30px;}
+  #Chisono3{padding:0px 10px}
+  #abilities{padding: 26px;}
+  .Ab1, .Ab2, .Ab3, .Ab4 { padding: 4px;}
+
+  #Competenze, #Skills i.material-icons {  left: 38%;}
+
+  #Competenze {font-size: 74%; padding:0px 10px; }
+  #Competenze h3{font-size:23px;}
+  .no-bullets {    padding: 0px;    font-size: 14px;}
+    #Work{height:auto;}
+  .lavoricont {  width: 95%;}
+  #lavori, #lavori1, #lavori2, #lavori3 {  width:225px;  display: inline-block;  margin: 36px auto;}
+  #bb, #bb1, #bb2, #bb3 { width: 198px;}
+  #imgDrag {  width: 229px}
+  #tt, #tt2{display: block; position: absolute;}
+  #V { position: relative;  left: 50%;  top: -1%;}
+  .intro {  width: 50%;  margin-top: 24px;  font-size: 18px;  padding: 13px 52px;}
+  .intro1 {  width: 50%;  float: left;     margin-top: 24px; font-size: 18px;  padding: 13px 52px;}
+  #containerForm {height: 214px;}
+  .contactrow {  position: absolute;    width: 100%; left:0px; }
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+  .container-footer {  height: 390px;}
+  #contact-main {  width: 100%;  height: 390px;}
+  .imgF{    position: absolute;  top: 31%;  left: 4%;}
+  .imgCloud {  position: absolute;  top: 28%;  right: 5%;  width: 200px;}
+  i.fa.fa-angellist{ position: absolute; top: 360px;  left: 149px; }
+  #mainTT .material-icons {font-size: 46px;    line-height: 15px;}
+  #contact-main ul > li > a { padding: 27.5px 28px;}
+  #contact-main h2 {  padding: 46px 0px 20px 85px;}
+  #mappa{height:390px;}
+  #myBtn { position: fixed; bottom: 72px;  right: 90px;}
+  .trapezoid{width: 610px; left:21%;}
+  .bottomArrowUp {  display: none;  position: fixed;  right: 2%;  color: beige;  width: 44px;  bottom: 6%;}
+  #createdBy {  font-size: 15px;}
+  .menu{display: block; right:24px;}
+  .ddropdown{display: none; }
+  #mmainmenu ul {  width: 951px;}
+  .modal-content{height:95%;}
+  .modal-body-text{width: 100%;}
+  
+  #swithcA{color:transparent; background-color: transparent;}
+  .imgArrow { display:none;}
+  .onoffswitch {  position: absolute;    left: 37%;    top: 93%;    width: 95px;}
+
+
+  .onoffswitch-inner:after {  content: "ENG";  padding-right: 10px;  background-color: #ccc;  text-align: right;  color: white;  text-align: right;  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after {  display: block;  float: left;  width: 50%;  height: 29px;}
+  .onoffswitch-switch {    display: block;    width: 31px;    margin: 2px;       background-size: contain;    position: absolute;    top: 0px;    bottom: 4px;    right: 48px;    line-height: 33px;} 
+  .footerIcon {    width: 264px;    margin: 0;    position: absolute;    top: 35%;    right: 2%;}
+  .footerIcon .fa-head {width: 264px;  left: 0;}
+  .footerIcon .fa-head .fa, .footerIcon .fab {  padding: 17px;  font-size: 16px;  width: 53px;  background-color: #333;}
+  #swithchUNO  {    position: absolute;    left: 45%;    top: 12%;    width: 95px;   }
+  
+  .number, .divIt, .divuk {    width: 220px; height: 84px; font-size: 15px; }
+  .divuk {top:38% }
+  .divuk a{width: 158px; top:35%;}
+  .divIt{top: 140%;}
+  .divIt a {    width: 151px;}
+  .pngUK {    width: 48px;}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1201px) and (max-width: 1439px) {
+  
+  #Home {    height: 600px; background:  linear-gradient(90deg  , #2f2f2f 80%, #000000 72% );   overflow: hidden !important;}
+  .rec1{  transform: rotate(47deg);  position: relative;  top: -480px;  width: 573px;  height: 236px;  left: -171px; box-shadow: 7px -9px 20px 0px black;}
+  .profiltrg0 {  position: relative;  top: 508px;  width: 289px;  left: 41px;  transform: rotate(-39deg);  height: 233px;box-shadow: 4px -3px 20px black;}
+  .profiltrg1 {  position: absolute;  top: 210px;  transform: rotate(180deg);  left: 8px;    box-shadow: -8px -9px 20px black;}
+   .menu a{    background-color: #40587c !important;}
+  #h1Nome{top:1%; left:22%; letter-spacing: 1px;} 
+  #h3Nome{left: 35%;    top: 3%;}
+  .lineP {left: 24%;}
+  .lineP ul {margin: 16px auto;  padding: 0;  text-align: left;  width: 173px;}
+  .line-3 {margin: 16px auto;  padding: 0;  text-align: center;  width: 226px;}
+  .menu a {  color: white;}
+  .bottomArrow{ top: 15%;    position: absolute;}
+  #Work{height:auto;}
+  .lavoricont {  width: 1217px;  margin: 0 auto;}
+  #lavori, #lavori1, #lavori2, #lavori3 {  display: inline-block;  margin: 23px;}
+  #tt, #tt2{display: block; position: absolute; top:-11%;}
+  .contactrow {  position: absolute;    width: 100%; left:0px; }
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+  #containerForm {height: auto;}
+  #contact-main{overflow: hidden;}
+  #contact-main ul > li > a { padding: 32px 45px;}
+  #contact-main h2 {  padding: 65px 0px 20px 126px;}
+  #mainTT{margin: 0 auto;}
+  #mainTT .col-md-4  {width:31%; text-align: center;}
+  #mainTT .material-icons {font-size: 52px;}
+  #contact-main h2 {  padding: 46px 0px 20px 85px;}
+  #myBtn { position: fixed; bottom: 72px;  right: 120px;}
+  .ddropdown{display: none;}
+  #mmainmenu ul {width: 1253px;}
+  .imgF{position: relative; left:10%; top:-250px;}
+  .imgCloud{  position: absolute;  top: 16%;  right: 7%;  width: 200px;}
+  .imgArrow {  position: absolute;  top: 4%;  left: 6%;  width: 200px;  z-index: 1;}
+  .trapezoid{width: 760px; top:-5%}
+  .modal-content { height: 73%;}
+  .modal-body-text {width:100%}
+  .onoffswitch {  position: absolute;    left: 37%;    top: 91%;}
+  #swithchUNO {  position: absolute;  left: 46%;  top: 11%;  width: 95px;}
+  .onoffswitch-inner:after { line-height: 33px;}
+  .onoffswitch-switch { margin: 2px;  right: 55px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after { height: 30px;}
+}
+@media only screen and (min-width: 1440px){
+ 
+  #Home {    height: 594px; background: linear-gradient( 200deg ,rgb(0 0 0 / 20%)  30%,rgb(51 49 49)  ), linear-gradient(90deg  , #2f2f2f 80%, #000000 72% );     overflow: hidden !important;}
+  .rec1{  transform: rotate(47deg);  position: relative;  top: -480px;  width: 573px;  height: 236px;  left: -171px; box-shadow: 7px -9px 20px 0px black;}
+  .profiltrg0 {  position: relative;  top: 508px;  width: 289px;  left: 41px;  transform: rotate(-39deg);  height: 233px;box-shadow: 4px -3px 20px black;}
+  .profiltrg1 {  position: absolute;  top: 210px;  transform: rotate(180deg);  left: 8px;    box-shadow: 0px -9px 20px black;}
+
+  #h1Nome{position: absolute;    left: 22%;    top: 1%;}
+  .fa-head {    width: 444px;}
+  
+ .lineP ul {margin: 16px auto;  padding: 0;  text-align: left;  width: 173px;}
+  .menu li {    width: 169px;}
+
+  #pMessage{float: left;}
+
+  .flip-box{height:302px;}
+  .intro {  width: 50%;  margin-top: 0;  font-size: 23px;  line-height: 1.4;  padding: 1px 60px;}
+  .intro1 {  width: 50%;  float: left;  font-size: 22px; padding: 0px 47px;}
+  #Work{height:auto;}
+
+  #lavori, #lavori1, #lavori2, #lavori3 {  position: relative;  left: 0%;  top: 20px;  display: inline-block;  margin: 36px;  float: left;}
+  #containerForm {  max-width: 40%;}
+  #ContattiRow h2{    margin-top: 12px;     margin-bottom: 10px;}
+  .span_title {  margin-bottom: 10px;}
+    .span_content {    font-size: 1.2em;}
+  .contactrow {  position: absolute;    width: 100%; left:0px; }
+  #tt, #tt2{display: block; position: absolute; top:-11%;}
+  #mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}
+  #mainTT .row   { margin:0px; }
+  .container-footer {  height: 388px;}
+  #contact-main {  width: 100%;  height: 388px; overflow: hidden;}
+  i.fa.fa-angellist{ position: absolute; top: 360px;  left: 149px; }
+  #contact-main ul > li > a { padding: 35.5px 43px;}
+  .trapezoid{position: absolute;}
+  #info {  font-size: 82%;}
+  #myBtn { position: fixed; bottom: 72px;  right: 150px;}
+  .imgF{  z-index: 1;  position: absolute;  top: 19%;  left: 5%;}
+  .imgArrow {  position: absolute;  top: 3%;  left: 6%;  width: 200px;  z-index: 1;}
+  .onoffswitch {  position: absolute;    left: 37%;    top: 91%;}
+  #swithchUNO {  position: absolute;  left: 46%;  top: 11%;  width: 95px;}
+  .onoffswitch-inner:after { line-height: 33px;}
+  .onoffswitch-switch {  margin: 2px;  right: 49px;}
+  .onoffswitch-inner:before, .onoffswitch-inner:after { height: 30px;}
+}
+
+@media only screen and (min-width: 2500px) {
+  #Home .fa-download {   text-shadow: -2px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;}
+  #Chisono{ font-size: 171%;}
+.intro {  width: 100%;  margin-top: 39px;  font-size: 111%;  line-height: 1.5;  padding: 10px;}
+.navbar-inverse .navbar-nav>li>a {font-size: 27px !important;}
+#navnavbrand{font-size:27px;}
+#imghead {  height: 950px;}
+#logohead {  position: absolute;  top: 5%;  left: 39%;  width: 430px;}
+.menu a{background-color:#0c0c0d !important;}
+input[type=text], select, textarea, textarea#message {height: 91px;}
+#Chisono2 h3 { font-size: 48px;}
+.roadmap.roadmap--orientation-auto.roadmap--initialized .roadmap__events .roadmap__events__event .event {font-size:150%;}
+#my-timeline {  position: relative;  width: 90%;  margin: 205px 81px 255px 81px;}
+#linkTimeline {  position: relative;  top: 63px;  left: 46%;  margin-top: 249px;  margin-bottom: 197px;}
+.look {  background-color: rgb(246, 236, 19);  color: white;  padding: 27px 28px;  border: none;  border-radius: 4px;  cursor: pointer;  margin-right: 101px;  text-transform: uppercase;  text-decoration: none;  font-size: 28px;  margin-left: -228px;}
+.dwnld {  background-color: rgb(246, 236, 19);  color: white;  padding: 27px 28px;  border: none;  border-radius: 4px;  cursor: pointer;  text-transform: uppercase;  text-decoration: none;  font-size: 28px;}
+.lavoricont {  width: 1300px;}
+#abilities .col-md-3 {  width: 24%;  font-size: 150%;}
+#contmail p {  width: 100%;  font-size: 31px;}
+#ContattiRow{height:555px;}
+.intro {  width: 50%;  margin-top: 0;  font-size: 23px;  line-height: 1.4;  padding: 1px 60px;}
+.intro1 {  width: 50%;  float: left;  font-size: 22px; padding: 0px 47px;}
+#imghead2 {  width: 100%;  height: 554px;}
+#containerForm {    max-width: 97%;    font-size: 26px;    height: 524px;}
+.contactrow {  position: absolute;    width: 100%; left:0px; }
+#mainTT .col-md-4 {width:30%; margin-left: 7px; float: left;}                                                                                                                                                                                                      y
+#mainTT .row   { margin:0px; }
+.container-footer {  height: 550px;}
+#contact-main {  width: 100%;  height: 556px;}
+i.fa.fa-angellist{ position: absolute; top: 360px;  left: 149px; }
+#contact-main ul > li > a { padding: 42.5px 82px;  font-size: 54px;}
+#mainTT{ width: 73%; font-size: 169%;  padding-left: 592px;}
+#mainTT .material-icons {font-size: 105px;}
+#contact-main h2 {font-size: 206%;}
+.map-view-switch{  font-size: 40px;  height: 45px;  width: 130px;}
+#myBtn { position: fixed; bottom: 72px;  right: 150px;}
+.imgF{    width: 274px;}
+.imgCloud {  position: absolute;  top: 16%;  right: 7%;  width: 288px;}
+.imgArrow {  position: absolute;  top: 3%;  left: 6%;  width: 200px;  z-index: 1;}
+.trapezoid {  width: 66%;  left: 16%;}
+}
+
+
+@media screen and (orientation:landscape) {
+  #mmainmenu a {  padding: 10px 20px;  font-size: 16px;}
+}

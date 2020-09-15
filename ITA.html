@@ -1,0 +1,1254 @@
+<!DOCTYPEhtml>
+  <html>
+
+  <head>
+    <title>SouthSideWeb - Web design Palermo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Sono un web designer di Palermo. Realizzo siti web, ecommerce, siti web aggiornabili e responsive. Lavoro principalmente come sviluppatore front-end, realizzando siti web per clienti italiani ed esteri. Utilizzo principalmente di HTM, CSS, JavaScript e PHP ma anche CMS come Wordpress, a seconda della richiesta del cliente.    ">
+    <meta name="keywords"
+      content="realizzazione siti web,  web service, WebDesigner, web , Palermo, Sicilia, Italia, siti web, siti, html, css, javascript, wordpress, responsive, contatti">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- Include jQuery Timeline CSS -->
+    <link href="../dist/jquery.roadmap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../images/Logo SouthSide_2(1).png" style="width:16px;" type="image/png" />
+
+
+    <script>
+      $(document).ready(function () {
+
+        //When btn is clicked
+        $(".bttn-responsive-menu").click(function () {
+          $("#mmainmenu").toggleClass("sshow");
+
+        });
+
+      });
+    </script>
+
+    <style>
+
+    </style>
+  </head>
+
+  <body>
+  
+
+
+
+    <div class="bttn-responsive-menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+
+<div id="mmainmenu" class="menudb">
+  <ul>
+
+    <li><a class="active" href="#Home">Home</a></li>
+
+    <li><a href="#Curriculum"> <span title="About">CV</span> </a> </li>
+
+    <li><a href="#Competenze"> <span title="Work">Competenze</span></a></li>
+
+    <li> <a href="#Work"> <span title="Lavori">Lavori</span> </a></li>
+
+    <li> <a href="#Contatti"> <span title="Contact">Contatti</span></a></li>
+    
+    <li><a id="swithcA"> -
+      <div class="onoffswitch" id ="swithchUNO">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0"
+          type="submit" name="" value="Login" onClick="login()">
+        <label class="onoffswitch-label" for="myonoffswitch">
+          <span class="onoffswitch-inner"></span>
+          <span class="onoffswitch-switch"><i class="material-icons" style="font-size:26px; color:white;">language</i></span>
+        </label>
+        <script>
+          function login() {
+            window.location = "https://www.southside-web.com";
+          }
+        </script>
+      </div>
+      </a>
+    </li>
+  </ul>
+        <!-- #main -->
+
+      </div>
+    </div>
+
+    <ul class="menu">
+
+      <li><a class="active" href="#home">Home</a></li>
+
+      <li><a href="#Curriculum"> <span title="About">CV</span> </a> </li>
+
+      <li><a href="#Competenze"> <span title="Work">Competenze</span></a></li>
+
+      <li> <a href="#Work"> <span title="Lavori">Lavori</span> </a></li>
+
+      <li> <a href="#Contatti"> <span title="Contact">Contatti</span></a></li>
+   
+      <li><a id="swithcA"> -
+        <div class="onoffswitch" id ="swithchHome">
+          <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0"
+            type="submit" name="" value="Login" onClick="login()">
+          <label class="onoffswitch-label" for="myonoffswitch">
+            <span class="onoffswitch-inner"></span>
+            <span class="onoffswitch-switch"><i class="material-icons" style="font-size:26px; color:white;">language</i></span>
+          </label>
+          <script>
+            function login() {
+              window.location = "https://www.southside-web.com";
+            }
+          </script>
+        </div>
+        </a>
+      </li>
+    </ul>
+
+
+    <script>
+
+
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          
+          
+          if ($(document).scrollTop() > 610 && window.matchMedia("(min-width: 320px)").matches){
+            $(".bottomArrowUp").css("display", "block");
+          }
+          if ($(document).scrollTop() < 610 && window.matchMedia("(min-width: 320px)").matches){
+            $(".bottomArrowUp").css("display", "none");
+          }
+          
+       
+          
+          if ($(document).scrollTop() > 458 && window.matchMedia("(min-width: 991px)").matches) {
+            $(".menu a").css("background-color", "#f8f8f8");
+            $(".menu").css("display", "none");
+            $(".bttn-responsive-menu").css("display", "block");
+            
+            
+           
+          }
+          else if ($(document).scrollTop() < 458 && window.matchMedia("(min-width: 991px)").matches) {
+            $(".menu a").css("background-color", "");
+            $(".menu").css("display", "block");
+            $(".bttn-responsive-menu").css("display", "none");
+            
+           
+          }
+
+        });
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        // Add scrollspy to <body>
+        $('body').scrollspy({ target: ".menu, .menudb, .bottomArrow, .bottomArrowUp", offset: 50 });
+
+        // Add smooth scrolling on all links inside the navbar
+        $(".menu a, .menudb a, .bottomArrow a, .bottomArrowUp a").on('click', function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 650, function () {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          }  // End if
+        });
+      });
+    </script>
+
+
+
+
+    <div class="container-fluid" name="home" id="Home">
+
+      <h1 id="h1Nome">GIORGIA CIULLA </h1>
+      <h3 id="h3Nome">WEBDESIGNER - PROGRAMMER </h3>
+      <img class="imgArrow" src="../images/arrow.png">
+      <img class="profiltrg0" src="../images/triangolo0.png">
+      <img class="profiltrg1"  src="../images/triangolo2.png">
+      <div class="lineP">
+        <div class="lineP_1">
+          <h4 style="border-bottom:1px dashed white;"> Competenze</h4>
+
+          <p class="line-2">
+          <ul style="list-style-type: none; padding: 0; text-align:left">
+            <li>[1] - HTML</li>
+            <li>[2] - CSS</li>
+            <li>[3] - JAVASCRIPT</li>
+            <li>[4] - JAVA</li>
+            <li>[5] - WORDPRESS</li>
+          </ul>
+
+        </div>
+
+        <div class="lineP_2">
+          <h4 style="border-bottom:1px dashed white;"> Obiettivo</h4>
+          <p class="line-3">Oracle Certification <hr class="line-3Hr" style= "background-color: white;    width: 5px;    margin: 5px auto;    text-align: center;    padding: 0;"> Java SE 8 Programmer I</p>
+
+        </div>
+
+      </div>
+
+
+      <a class="dwnld0" href="https://southside-web.com/download/CV-Giorgia Ciulla.zip" download=""><i
+          class="fa fa-download"></i> Scarica il CV</a>
+        <p class="fa-head">
+        <a href="tel:+39 3332907403" class="fa fa-phone" target="_blank"></a>
+        
+        <a href="https://gitlab.com/Giorgia" class="fab fa-gitlab" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/giorgia-ciulla-46572a133/?challengeId=AQFiAO2uXv_2eQAAAXNYAuabvZEF6Lk33gqHt1f91V3TviZuO4-3J-jY9ogHI-yXH1GXkeYh8Jav5uFVh8cT14O5O07UTuh_Ig&submissionId=b70e0031-b241-2216-653a-453966ee4d43"
+          class="fa fa-linkedin" target="_blank"></a>
+          <a href="https://www.facebook.com/giorgia.ciulla" target="_blank" class="fa fa-facebook"></a>
+        </p>
+
+
+      <svg class="rec1">
+        <rect class="rec" ></rect>
+        Sorry, your browser does not support inline SVG.
+      </svg>
+      <div class="bottomArrow">
+        <a href="#Curriculum" style="text-decoration: none;"><i id="arrow1"
+            class="material-icons desk">keyboard_arrow_down</i></a>
+        <a href="#Curriculum" style="text-decoration: none;"><i id="arrow2"
+            class="material-icons desk">keyboard_arrow_down</i></a>
+        <a href="#Curriculum" style="text-decoration: none;"><i id="arrow3"
+            class="material-icons desk">keyboard_arrow_down</i></a>
+      </div>
+
+
+    </div>
+    <div class="container-fluid">
+      <div id="Curriculum" class="row">
+        <div class="col">
+
+          <svg id="svg2" viewBox="0 0 1189 22" preserveAspectRatio="xMinYMin meet">
+            <circle class="cls-1" cx="37.15" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="74.31" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="111.46" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="148.61" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="185.77" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="222.92" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="260.07" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="297.23" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="334.38" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="371.54" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="408.69" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="445.84" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="483" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="520.15" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="557.3" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="594.46" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="631.61" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="668.76" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="705.92" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="743.07" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="780.22" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="817.38" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="854.53" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="891.69" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="928.84" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="965.99" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="1003.15" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="1040.3" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="1077.45" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="1114.61" cy="11" r="10" fill="white"></circle>
+            <circle class="cls-1" cx="1151.76" cy="11" r="10" fill="white"></circle>
+            <path class="cls-1" fill="white" d="M1253,389a11,11,0,0,0,0,22V389Z" transform="translate(-64 -389)"></path>
+            <path class="cls-1" fill="white" d="M64,389v22A11,11,0,0,0,64,389Z" transform="translate(-64 -389)"></path>
+          </svg>
+
+
+
+
+          <h2
+            style=" text-align: center; text-transform: uppercase; text-shadow: -2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+            Formazione e lavoro</h2>
+          <div id="my-timeline"></div>
+          <div id="linkTimeline">
+            <a href="https://southside-web.com/CV.pdf" target="_blank" class="look">Dai un'occhiata al CV</a>
+
+            <a class="dwnld" href="https://southside-web.com/download/CV-Giorgia Ciulla.zip"   download=""><i
+                class="fa fa-download"></i> Scarica il CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container-fluid">
+      <div id="Competenze" class="row">
+        <div id="abilities">
+          <h2 id="h2-3"
+            style="color:#2e3c48; text-align:center; text-transform: uppercase; margin:0px; text-shadow: none;">
+            Competenze</h2>
+
+          <hr>
+
+          <div class="col-md-3">
+            <div class="Ab1">
+
+              <i class="material-icons" style=" color:yellow;">phonelink</i>
+              <h3>Competenze</h3>
+              <ul class="no-bullets">
+
+
+                <li>
+                  <span class="ability-title">HTML5</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled "></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+                <li>
+                  <span class="ability-title">CSS 3</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+
+
+
+                <li>
+                  <span class="ability-title">Javascript</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+                <li>
+                  <span class="ability-title">MySQL</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+                <li>
+                  <span class="ability-title">PHP</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+                <li>
+                  <span class="ability-title">JQuery</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                  </span>
+                </li>
+
+                <li>
+                  <span class="ability-title">Wordpress</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+                <li>
+                  <span class="ability-title">SEO</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                  </span>
+                </li>
+
+
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="Ab2">
+
+              <i class="material-icons" style="color:yellow;">language</i>
+              <h3>Lingue</h3>
+              <ul class="no-bullets">
+
+
+                <li>
+                  <span class="ability-title">Italiano<br><small>(Madre lingua)</small> </span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+
+              </ul>
+
+              <ul class="no-bullets">
+
+
+
+                <li>
+                  <span class="ability-title">Inglese</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="Ab3">
+
+              <i class="material-icons" style=" color:yellow;">keyboard</i>
+              <h3>Strumenti</h3>
+              <ul class="no-bullets">
+
+
+
+                <li>
+                  <span class="ability-title">Windows10</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+                <li>
+                  <span class="ability-title">MS Office </span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+
+                <li>
+                  <span class="ability-title">FileZilla</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+
+                <li>
+                  <span class="ability-title">Eclipse</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+                <li>
+                  <span class="ability-title">NetBeans</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                  </span>
+                </li>
+
+
+
+                <li>
+                  <span class="ability-title">VS Code</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                  </span>
+                </li>
+
+
+                <li>
+                  <span class="ability-title">Gimp</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                    <span class="glyphicon glyphicon-certificate"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate "></span>
+
+
+                  </span>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="Ab4">
+
+              <i class="material-icons">people_outline</i>
+              <h3>Altre competenze</h3>
+              <ul class="no-bullets">
+
+
+                <li>
+                  <span class="ability-title">Lavoro di squadra</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+                <br>
+                <li>
+                  <span class="ability-title">Capacità di lavorare in autonomia</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+                <br>
+                <li>
+                  <span class="ability-title">Rispetto delle scadenze dei progetti</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+
+                <br>
+                <li>
+                  <span class="ability-title">Patente A/B</span>
+                  <span class="ability-score">
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                    <span class="glyphicon glyphicon-certificate filled"></span>
+
+
+                  </span>
+                </li>
+
+
+
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="Work">
+
+
+      <h2 style="color: white;text-shadow: -2px 0 black, 0 2px black, 4px 0 black, 0 -1px black;">I miei lavori</h2>
+      <hr>
+
+
+      <div class="lavoricont">
+
+        <div id="lavori" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div id="bb">
+            <p class="pProgress">Lavoro fatto!</p>
+
+            <p class="pN">1</p>
+            <div id="imgDrag" draggable="true" ondragstart="drag(event)">
+              <div id="one">
+                <a id="myBtn1">
+                  <i class="material-icons" style="font-size:30px; color: white;">search</i>
+                </a>
+              </div>
+
+              <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>B&B Darrè</h2>
+                  </div>
+                  <div class="modal-body">
+                    <div class="modal-body-text">
+                      <p>Sito realizzato su cms Wordpress</p>
+                      <a id="aSito" href="https://www.palermobbdarre.it/" target="_blank">Visita il sito</a>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <h3>Sito realizzato per il b&b Darre</h3>
+                  </div>
+                </div>
+
+              </div>
+
+              <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn1");
+
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+
+                // When the user clicks the button, open the modal 
+                btn.onclick = function () {
+                  modal.style.display = "block";
+                }
+
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function () {
+                  modal.style.display = "none";
+                }
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function (event) {
+                  if (event.target == modal) {
+                    modal.style.display = "none";
+                  }
+                }
+              </script>
+
+
+              <div id="two">
+                <a href="https://www.palermobbdarre.it/" target="_blank">
+                  <i class="material-icons" style="font-size:30px; color: white;">link</i>
+                </a>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        <div id="lavori1" ondrop="drop(event)" ondragover="allowDrop(event)">
+          <div id="bb">
+            <p class="pProgress">Lavoro in corso..</p>
+            <p class="pN">2</p>
+          </div>
+
+        </div>
+        <div id="lavori2">
+          <div id="bb">
+            <p class="pProgress">Lavoro in corso..</p>
+            <p class="pN">3</p>
+          </div>
+        </div>
+        <div id="lavori3">
+          <div id="bb">
+            <p class="pProgress">Lavoro in corso..</p>
+            <p class="pN">4</p>
+          </div>
+
+        </div>
+
+      </div>
+      <br>
+      <p id="pMessage" style=" text-align: center;width: 100%;">Questa è la sezione di lavori ufficiali, a breve sarà
+        arricchita con nuovi template.</p>
+      <br>
+      <i id="V" class="fa fa-angellist" style="font-size:36px; text-align: center; margin-bottom:20px;"></i>
+    </div>
+
+    <div id="Contatti" class="container-fluid">
+      <div id="ContattiRow" class="row" style="position:relative; overflow:hidden;">
+
+        <img id="tt" src="../images/triangoloCont.png" style="position: absolute;transform: scaleX(-1);">
+        <img id="tt2" src="../images/triangoloCont.png" style="position: absolute;right:0;" id="tt1">
+
+        <div class="container-fluid">
+          <h2 style="text-align: center; text-transform: uppercase; color:#2e3c48;">Contatti</h2>
+          <div id="Hy" class="row">
+
+            <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                  <ul id="info">
+                    <li class="line1">
+                      <p class="span_title">Nome</p>
+                      <p class="span_content">Giorgia Ciulla</p>
+                    </li>
+                    <li class="line2">
+                      <p class="span_title">Telefono</p>
+                      <p class="span_content"><a href="tel:+39 3332907403" style=" text-decoration: underline; color:black;">+39 3332907403</a></p>
+                      <p class="span_content"><a href="tel:+44 07730761319" style=" text-decoration: underline; color:black;">+44 07730761319</a></p>
+    
+                    </li>
+                    <li class="line3">
+                      <p class="span_title">Email</p>
+                      <p class="span_content">giorgiaciulla@libero.it</p>
+                    </li>
+                    <li class="line4">
+                      <p class="span_title">Indirizzo</p>
+                      <p class="span_content">Italia,
+                        Palermo(PA)</p>
+                    </li>
+                  </ul>
+
+
+
+                </div>
+
+              </div>
+            </div>
+
+
+            <div id="I">
+
+              <p class="intro">Sono una <b>web designer</b> di Palermo<br>Nel 2017 ho iniziato come autodidatta per
+                curiosità e
+                così ho scoperto la mia passione
+                per la programmazione. Ora voglio fare della mia passione un lavoro</p>
+              <p class="intro1"> Mi occupo da tre anni di tecniche front-end, tramite l'utilizzo di <b>HTML,CSS,
+                  JAVASCRIPT,
+                  JQUERY</b><br> Da poco mi dedico allo studio PHP e JAVA</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="mappa" class="row">
+
+        <a onclick="myFunction()" class="map-view-switch">Map</a>
+        <div class="row contactrow">
+
+          <div id="contact-main">
+
+
+            <div class="row">
+              <div class="col-md-12">
+                <h3
+                  style="text-align: center; text-transform: uppercase;color: white;  text-shadow: -1px 0 black, 1px -1px black, 2px 1px black, 0 -1px black">
+                  Scrivimi</h3>
+                <div id="mainTT">
+
+
+                  <div class="row">
+
+                    <div class="number">
+                      <h3 style="text-align: center; margin:0; color: white;    text-shadow: -1px 0 black, 1px -1px black, 2px 1px black, 0 -1px black;">Numbers</h3>
+                      <div class="divuk">
+                        <img class="pngUK"  src="../images/pngwave.png">
+                        <a href="tel:+44 07730761319" class="fa fa-phone" target="_blank" ><span style="font-family: 'cousine';">+44 07730761319</span></a>
+                        </div>
+                          <div class="divIt">
+                          <img class="pngIT" src="../images/pngwaveIt.png">
+                          <a href="tel:+39 3332907403" class="fa fa-phone" target="_blank"><span style="font-family: 'cousine';">+39 3332907403</span></a>
+                      </div>
+                    </div>
+
+
+                    <div id="containerForm">
+                      <input type="hidden" name="require" value="e-mail,nome">
+                      <form name="contact-form" action="/formInvio.php" method="post">
+
+                        <input type="hidden" name="require" value="e-mail">
+
+                        <input type="text" id="name" name="nome" placeholder="Il tuo nome..">
+
+
+                        <input type="text" id="email" name="e-mail" placeholder="La tua email.." required>
+
+
+                        <textarea id="message" name="messaggio" placeholder="Scrivi qui il tuo messaggio.."></textarea>
+
+                        <input type="submit" value="Invia">
+                      </form>
+                    </div>
+
+                    
+                   <div class= "footerIcon">
+                    <h4>Contattami</h4>
+                    <h5>Risponderò il prima possibile</h5>
+                    <p class="fa-head fa-footer">
+                      <a href="tel:+39 3332907403" class="fa fa-phone" target="_blank"></a>
+                      
+                      <a href="https://gitlab.com/Giorgia" class="fab fa-gitlab" target="_blank"></a>
+                      <a href="https://www.linkedin.com/in/giorgia-ciulla-46572a133/?challengeId=AQFiAO2uXv_2eQAAAXNYAuabvZEF6Lk33gqHt1f91V3TviZuO4-3J-jY9ogHI-yXH1GXkeYh8Jav5uFVh8cT14O5O07UTuh_Ig&submissionId=b70e0031-b241-2216-653a-453966ee4d43"
+                        class="fa fa-linkedin" target="_blank"></a>
+                        <a href="https://www.facebook.com/giorgia.ciulla" target="_blank" class="fa fa-facebook"></a>
+                      </p>
+                    </div>
+                   
+                    <div class="bottomArrowUp">
+                      <a href="#Home" style="text-decoration: none;"><i id="arrow1.1"
+                          class="material-icons desk1">keyboard_arrow_up</i></a>
+                      <a href="#Home" style="text-decoration: none;"><i id="arrow2.1"
+                          class="material-icons desk1">keyboard_arrow_up</i></a>
+                      <a href="#Home" style="text-decoration: none;"><i id="arrow3.1"
+                          class="material-icons desk1">keyboard_arrow_up</i></a>
+                    </div>
+
+                    
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+
+
+              <div class="trapezoid "></div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <div id="contact" class="container-footer">
+
+          <iframe class="custom-googlemap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59712.61982315064!2d13.307928003603692!3d38.13419348523884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1319e8c9814ed099%3A0xa0b042c233bd880!2sPalermo%20PA!5e0!3m2!1sit!2sit!4v1567939391037!5m2!1sit!2sit"></iframe>
+
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("contact-main");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+          document.getElementById("contact-main").style.backgroundColor = "none";
+        } else {
+          x.style.display = "none";
+          document.getElementById("contact-main").style.backgroundColor = "rgba(57, 57, 57, 0.8)33";
+        }
+      }
+    </script>
+<script>
+  function myFunction() {
+    
+    x=document.getElementsByClassName("map-view-switch");
+    y= document.getElementById("#mmainmenu ul");
+   if(x.style.display === "block!important"){}
+   
+  }
+  }
+  </script>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#cont1"><span
+          class="glyphicon glyphicon-arrow-up"></span></a></button>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css" />
+    <!-- Include jQuery Timeline Plugin -->
+    <script src="../dist/jquery.roadmap.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+
+        var events = [
+          {
+            date: '2005 - 2010',
+            content: 'Diploma di maturità scientifica '
+          },
+          {
+            date: '2014 - Oggi',
+            content: 'Università degli Studi di Palermo<small>Scienze biologiche</small>'
+          },
+          {
+            date: '2014 - 2015',
+            content: 'AIESEC Palermo<small>Volontariato studentesco</small>'
+          },
+          {
+            date: '2015 - 2017',
+            content: 'Scrittrice<a href="https://www.iostudionews.it/author/giorgia-ciulla/" target="_blank"><small> IoStudio News</a> </small>'
+          },
+          {
+            date: '2017 - Oggi',
+            content: "Freeance Web Developer"
+          },
+          {
+            date: '24/09/2017',
+            content: 'Google Digital Training<small><a href="../doc/Google digital training.pdf" target="_blank">Eccellenze in Digitale</a></small>'
+          },
+          {
+            date: '5/11/2017',
+            content: 'Guida pratica ai form html5<small><a href="../doc/HTML.pdf" target="_blank">Certificato Udemy</a></small>'
+          },
+          {
+            date: '1/05/2017',
+            content: 'Tecniche avanzate di CSS<small><a href="../doc/CertificatoCSS.pdf" target="_blank">Certificato Udemy</a></small>'
+          },
+
+          {
+            date: '21/01/2018',
+            content: 'Corso JavaScript per principianti<small><a href="../doc/CertificatoJS.pdf" target="_blank">Certificato Udemy</a></small>'
+          },
+          
+          {
+            date: 'Giugno 2020 - OGGI',
+            content: 'CORSO PROGRAMMATORE JAVA- Progetto GPS<small>Arces- Colleggio universitario</small>'
+          }
+        ];
+
+        $('#my-timeline').roadmap(events, {
+          eventsPerSlide: 6,
+          slide: 1,
+          prevArrow: '<i id="iconarrow" class="material-icons">keyboard_arrow_left</i>',
+          nextArrow: '<i id="iconarrow" class="material-icons">keyboard_arrow_right</i>',
+          // auto, horizontal, vertical
+          orientation: 'auto'
+        });
+      });
+    </script>
+
+  </body>
+
+  </html>
